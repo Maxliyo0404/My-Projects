@@ -1,6 +1,4 @@
-.header{
-    background-color: #232536;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
@@ -8,11 +6,11 @@
    position: sticky;
     top: 0;
     width: 100%;
-    background: #ffffff;
+    background:  #232536;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-.header-wrapper {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,10 +41,10 @@
 .header-link {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 28px;
     text-decoration: none;
-    color: #222222;
-    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 500;
     font-size: 16px;
     transition: 0.3s;
     
@@ -69,20 +67,9 @@
     cursor: pointer;
     background: transparent;
     outline: none;
+    color: #FFFFFF;
 }
 
-.header-btn {
-    padding: 10px 25px;
-    background: #3360FF;
-    color: #fff;
-    border: none;
-    border-radius:4px;
-    cursor: pointer;
-    font-weight: 600;
-    &:hover{
-        transform: scale(1.1);
-    }
-}
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -146,7 +133,7 @@
         width: 80%;
     }
 
-    .select, .header-btn {
+    .select{
         width: 100%;
         max-width: 250px;
     }
@@ -162,10 +149,10 @@
     
     .burger-menu.active span:nth-child(2) {
         opacity: 0;
-        transform: scale(0); /* Chapga qochmasdan joyida yo'qoladi */
+        transform: scale(0);
     }
     
     .burger-menu.active span:nth-child(3) {
-        transform: translateY(-9px) rotate(-45deg); /* Pastki chiziq ham o'rtaga chiqadi */
+        transform: translateY(-9px) rotate(-45deg); 
     }
 }
