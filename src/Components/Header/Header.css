@@ -36,10 +36,23 @@
     transition: 0.3s;
     
 }
-
 .header-link:hover {
-    color: #3360FF;
+    color: wheat;
 }
+.header-clone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFD3AF;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+.header-clone:hover {
+    color: #FFFFFF;
+} 
+
 
 .header-actions {
     display: flex;
