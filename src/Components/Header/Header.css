@@ -1,7 +1,4 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 .header {
    position: sticky;
     top: 0;
@@ -16,16 +13,6 @@
     justify-content: space-between;
     height: 80px;
 }
-
-.logo {
-    
-    font-weight: 700;
-    font-size: 20px;
-    color: #222222 ;
-    text-decoration: none;
-    z-index: 1002; 
-}
-
 .header-nav {
     display: flex;
     align-items: center;
@@ -81,7 +68,7 @@
 .burger-menu span {
     width: 30px;
     height: 3px;
-    background: #333;
+    background:#FFFFFF;
     transition: 0.3s;
     border-radius: 5px;
 }
@@ -144,7 +131,7 @@
     }
 
     .burger-menu.active span:nth-child(1) {
-        transform: translateY(9px) rotate(45deg); /* Toppa-to'g'ri o'rtaga kelib aylanadi */
+        transform: translateY(9px) rotate(45deg); 
     }
     
     .burger-menu.active span:nth-child(2) {
