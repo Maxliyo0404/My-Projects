@@ -1,0 +1,11 @@
+{
+    "header": {
+        "home":"Home",
+        "services":"Services",
+        "company":"Company",
+        "career":"Career",
+        "blog":"Blog",
+        "contact us":"Contact us",
+        "clone project" : "Clone project"
+    }
+}
