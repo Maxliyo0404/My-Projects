@@ -11,7 +11,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route element={<Layout/>}>
+      <Route path="/" element={<Layout/>}>
         <Route path="home" element = {<HomePages/>}/>
         <Route path="services" element = {<ServicesPages/>}/>
         <Route path="company" element = {<CompanyPages/>}/>
@@ -19,7 +19,7 @@ function App() {
       </Route>
     </Routes>
        </BrowserRouter>
-    
+
     </>
   )
 }
