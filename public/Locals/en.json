@@ -7,5 +7,10 @@
         "blog":"Blog",
         "contact us":"Contact us",
         "clone project" : "Clone project"
+    },
+    "hero": {
+        "hero-title" :"Transform Your Idea Into Reality with Finsweet",
+        "hero-text" : "The entire Finsweet team knows what's good with Webflow and you can too with 1 week and a good attitude.",
+        "hero-btn" : "Request Quote"
     }
 }
