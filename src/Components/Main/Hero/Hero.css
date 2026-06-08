@@ -32,7 +32,26 @@
     margin-bottom: 32px;
     
 }
+.hero-btn{
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #444CFC;
+    border: 1px solid #444CFC;
+    color: #FFFFFF;
+    border: none;
+    &:hover{
+        transform: scale(1.1);
+        background: none;
+        border: 1px solid #444CFC;
+        
+    }
+}
 .hero-right{
     width: 100%;
     max-width: 50%;
+}
+.hero-img{
+    max-width: 100%;
 }

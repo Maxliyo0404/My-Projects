@@ -21,7 +21,7 @@ function Hero() {
                          <button className="hero-btn">{t("hero.hero-btn")} <span className="hero-span"></span></button>
                     </div>
                     <div className="hero-right">
-                        <img src={heror} alt="rasm" />
+                        <img className="hero-img" src={heror} alt="rasm" />
                     </div>
                 </div>
                 <ul className="hero-list">
