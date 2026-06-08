@@ -6,6 +6,7 @@ import vector1 from "./image/vector1.png";
 import vector2 from "./image/vector2.png";
 import vector3 from "./image/vector3.png";
 import vector4 from "./image/vector4.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 function Hero() {
@@ -18,14 +19,14 @@ function Hero() {
                     <div className="hero-left">
                         <h1 className="hero-title">{t("hero.hero-title")}</h1>
                         <p className="hero-text">{t("hero.hero-text")}</p>
-                         <button className="hero-btn">{t("hero.hero-btn")} <span className="hero-span"></span></button>
+                         <button className="hero-btn">{t("hero.hero-btn")} <span className="hero-span"><FaLongArrowAltRight /></span></button>
                     </div>
                     <div className="hero-right">
                         <img className="hero-img" src={heror} alt="rasm" />
                     </div>
                 </div>
                 <ul className="hero-list">
-                    <li className="hero-item">
+                    <li className="hero-items">
                         <p className="heroList-text">{t("hero.heroList-text")}</p>
                         <h3 className="heroList-title">{t("hero.heroList-title")}</h3>
                     </li>
