@@ -26,19 +26,47 @@ function SectionOne() {
                     <img className="one-rasm" src={} alt="rasm" />
                     <img className="one-rasm" src={} alt="rasm" />
                 </div>
-            <ul className="one-list">
+                <div className="one-lists">
+               <ul className="one-list">
                  <li className="one-item">
-                   
-<h2>1560+</h2>
-    <div className="progress-bar">
-      <div className="blue"></div>
-      <div className="orange"></div>
-      <div className="light-orange"></div>
-    </div>
-    <p>Project Delivered</p>
-  </div>
+                    <h2>1560+</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="oneList-text">{t("sectionOne.oneList-text1")}</p>
                  </li>
-            </ul>
+                 <li className="one-item">
+                    <h2>100+</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="oneList-text">{t("sectionOne.oneList-text2")}</p>
+                 </li>
+                 <li className="one-item">
+                    <h2>950+</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="oneList-text">{t("sectionOne.oneList-text3")}</p>
+                 </li>
+                 <li className="one-item">
+                    <h2>10 yrs</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="oneList-text">{t("sectionOne.oneList-text4")}</p>
+                 </li>
+               </ul>
+               <a className="one-link" href="#"><span className="one-span"></span></a>
+            </div>
             </div>
         </div>
     </div>
