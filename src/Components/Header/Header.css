@@ -52,7 +52,23 @@
 .header-clone:hover {
     color: #FFFFFF;
 } 
-
+.span-clone{
+    color: #FFFFFF;
+    font-size: 18px;
+    display: inline-block;
+    animation: moveArrow 1.5s infinite ease-in-out;
+}
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
 
 .header-actions {
     display: flex;

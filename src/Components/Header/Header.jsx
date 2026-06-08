@@ -27,7 +27,7 @@ function Header() {
                     <li><Link className="header-link" to="career">{t("header.career")}</Link></li>
                     <li><Link className="header-link" to="blog">{t("header.blog")}</Link></li>
                     <li><Link className="header-link" to="contact us">{t("header.contact us")}</Link></li>
-                    <li><Link className="header-clone" to=" clone project">{t("header.clone project")} <FaLongArrowAltRight /></Link></li>
+                    <li><Link className="header-clone" to=" clone project">{t("header.clone project")} <span className="span-clone"><FaLongArrowAltRight /></span></Link></li>
                 </ul>
                 <div className="header-actions">
                     <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
