@@ -111,3 +111,46 @@
     color: #FFFFFF;
     
 }
+@media (max-width: 992px) {
+  .hero-info {
+    flex-direction: column-reverse; /* Mobilda elementlar ustma-ust tushadi */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-left, .hero-right {
+    max-width: 100%;
+  }
+  .hero-left{
+    padding-top: 30px;
+  }
+
+  .hero-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-list {
+    grid-template-columns: repeat(2, 1fr); /* Planshetda 2 ta ustun */
+  }
+  
+  .hero-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-list {
+     grid-template-columns: repeat(2, 1fr); /* Telefonda bitta ustun */
+  }
+  
+  .hero-btn {
+    margin: 0 auto; /* Tugmani markazga olish */
+    width: 100%;
+    justify-content: center;
+  }
+}
