@@ -7,5 +7,13 @@
       "blog": "Блог",
       "contact us": "Связаться с нами",
       "clone project": "Клонировать проект"
+    },
+    "hero": {
+      "hero-title": "Превратите свою идею в реальность вместе с Finsweet",
+      "hero-text": "Вся команда Finsweet знает толк в Webflow, и вы тоже сможете разобраться всего за 1 неделю при правильном подходе.",
+      "hero-btn": "Запросить расценку",
+      "heroList-title": "Мы работали с",
+      "heroList-text": "Наши клиенты",
+      "heroList-text1": "logoipsum"
     }
 }

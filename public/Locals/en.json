@@ -11,6 +11,10 @@
     "hero": {
         "hero-title" :"Transform Your Idea Into Reality with Finsweet",
         "hero-text" : "The entire Finsweet team knows what's good with Webflow and you can too with 1 week and a good attitude.",
-        "hero-btn" : "Request Quote"
+        "hero-btn" : "Request Quote",
+        "heroList-title": "We've Worked with",
+        "heroList-text": "Our Clients",
+        "heroList-text1": "logoipsum"
+    }
     }
 }

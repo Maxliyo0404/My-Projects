@@ -7,5 +7,13 @@
       "blog": "Blog",
       "contact us": "Biz bilan bog‘lanish",
       "clone project": "Loyihani klonlash"
+    },
+    "hero": {
+      "hero-title": "G‘oyalaringizni Finsweet bilan haqiqatga aylantiring",
+      "hero-text": "Finsweet jamoasining barcha a’zolari Webflow'ni mukammal bilishadi, siz ham 1 hafta va yaxshi kayfiyat bilan buni o‘rganishingiz mumkin.",
+      "hero-btn": "Narxni so‘rash",
+      "heroList-title": "Biz hamkorlik qilganmiz",
+      "heroList-text": "Mijozlarimiz",
+      "heroList-text1": "logoipsum"
     }
 }
