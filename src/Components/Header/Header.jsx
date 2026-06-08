@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import logoPages from "./image/logoPages.svg";
 function Header() {
     const [t, i18n] = useTranslation();
       const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ function Header() {
     <div className="header">
         <div className="container">
             <div className="header-container">
-                <a className="logo" href="#"></a>
+                <a className="logo" href="#"><img src={logoPages} alt="rasm" /></a>
                  <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
                 <ul className="header-list">
                     <li><Link className="header-link" to="home">{t("header.home")}</Link></li>
