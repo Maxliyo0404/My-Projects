@@ -15,7 +15,10 @@ function SectionFive() {
             </div>
             <ul className="five-list">
                 <li className="five-item">
-                    
+                    <div className="five-icon"></div>
+                    <div className="fiveList-titles">
+                        
+                    </div>
                 </li>
             </ul>
         </div>
