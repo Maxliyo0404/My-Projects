@@ -26,5 +26,14 @@
     "oneList-text3": "Mamnun mijozlar",
     "oneList-text4": "Tajriba",
     "one-link": "Biz haqimizda o'qish"
-  }
+  },
+  "sectionTwo": {
+    "two-title": "Bizning tajribamiz",
+    "two-title1": "Biz global fuqarolik davrida dunyoning har bir burchagida mahalliy identifikatsiyaga ega bo‘lishni istaymiz",
+    "two-text": "True Rich Attended orqali u onasini hech qachon tugatmaydi, chunki u har bir holatda paketlar bo‘yicha so‘rov yuborishda juda xursand bo‘lib, o‘z xarajatlarini hisoblab chiqadi.",
+    "twoList-title1": "O‘z vaqtida yetkazib berish",
+    "twoList-title2": "Eng yaxshi sifat",
+    "twoList-title3": "Yordam ko‘rsatish",
+    "twoList-text": "True Rich Attended orqali u onasini hech qachon tugatmaydi, chunki u har bir holatda juda xursand."
+}
 }

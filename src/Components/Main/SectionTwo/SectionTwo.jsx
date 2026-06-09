@@ -13,7 +13,7 @@ function SectionTwo() {
                 <div className="two-left">
                     <h6 className="two-title">{t("sectionTwo.two-title")}</h6>
                      <h3 className="two-title1">{t("sectionTwo.two-title1")}</h3>
-                     <p className="two-text1">{t("sectionTwo.two-text1")}</p>
+                     <p className="two-text">{t("sectionTwo.two-text")}</p>
                 </div>
                 <ul className="two-list">
                     <li className="two-item">
@@ -36,7 +36,9 @@ function SectionTwo() {
                          <h3 className="twoList-title3">{t("sectionTwo.twoList-title1")}</h3>
                          <p className="twoList-text">{t("sectionTwo.twoList-text")}</p>
                         </div>
+                        <div className="line-bottom" style={{ backgroundColor: '#FF9900' }}></div>
                    </li>
+                   
                 </ul>
             </div>
         </div>
