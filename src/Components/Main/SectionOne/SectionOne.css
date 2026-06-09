@@ -97,3 +97,71 @@
   width: 20%; 
   background-color: orange; 
 }
+.oneList-text{
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 24px ;
+    color: #000000;
+}
+.one-link{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 24px ;
+    color: #444CFC;
+}
+.one-span{
+    color: #000000;
+    font-size: 22px;
+    display: inline-block;
+    animation: moveArrow 1.5s infinite ease-in-out;
+}
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+@media (max-width: 768px) {
+  /* Sarlavhalarni mobilga moslash */
+  .one-titles {
+    flex-direction: column; /* Ustun ko'rinishiga o'tkazish */
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .one-left, .one-right {
+    max-width: 100%; /* Mobilda butun kenglikni egallaydi */
+  }
+
+  .one-text {
+    font-size: 28px; /* Katta shriftni biroz kichraytiramiz */
+    line-height: 36px;
+  }
+
+
+  .one-rasms {
+    grid-template-columns: repeat(1, 1fr); /* Mobilda bitta ustun */
+  }
+
+  /* Statistik ro'yxatni mobilga moslash */
+  .one-lists {
+    flex-direction: column; /* Ro'yxatni pastma-past qilish */
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .one-list {
+    flex-direction: column; /* Ichidagi elementlarni ham pastma-past qilish */
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
