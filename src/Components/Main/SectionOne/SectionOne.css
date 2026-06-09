@@ -130,38 +130,52 @@
   }
 }
 
-@media (max-width: 768px) {
-  /* Sarlavhalarni mobilga moslash */
-  .one-titles {
-    flex-direction: column; /* Ustun ko'rinishiga o'tkazish */
-    gap: 30px;
-    margin-bottom: 40px;
-  }
+@media (max-width: 1024px) {
+    .one-titles {
+        flex-direction: column; 
+        gap: 30px;
+    }
+    .one-left, .one-right {
+        max-width: 100%; 
+    }
+    .one-rasms {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
 
-  .one-left, .one-right {
-    max-width: 100%; /* Mobilda butun kenglikni egallaydi */
-  }
+@media (max-width: 700px) {
+    .sectionOne-wrapper {
+        padding: 30px 15px; 
+    }
+    .one-text {
+        max-width: 100%;
+        font-size: 28px; 
+        line-height: 32px;
+    }
+    .one-title1{
+        max-width: 100%;
+        font-size: 26px; 
+        line-height: 32px;
+    }
+    .one-rasms {
+        grid-template-columns: 1fr; 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .one-lists {
+        flex-direction: column; 
+        gap: 40px;
+         text-align: center;
+    }
+    .one-list {
+        gap: 20px; 
+        flex-wrap: wrap;
+      
 
-  .one-text {
-    font-size: 28px; /* Katta shriftni biroz kichraytiramiz */
-    line-height: 36px;
-  }
-
-
-  .one-rasms {
-    grid-template-columns: repeat(1, 1fr); /* Mobilda bitta ustun */
-  }
-
-  /* Statistik ro'yxatni mobilga moslash */
-  .one-lists {
-    flex-direction: column; /* Ro'yxatni pastma-past qilish */
-    align-items: flex-start;
-    gap: 30px;
-  }
-
-  .one-list {
-    flex-direction: column; /* Ichidagi elementlarni ham pastma-past qilish */
-    align-items: flex-start;
-    gap: 20px;
-  }
+    }
+    .oneListitle {
+        font-size: 28px; 
+    }
 }
