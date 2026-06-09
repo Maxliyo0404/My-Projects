@@ -41,66 +41,72 @@
 .two-list{
     max-width: 55%;
 }
+.two-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 500px; /* Kartalar juda keng bo'lib ketmasligi uchun */
+  width: 100%;
+}
+
+/* Ro'yxat */
 .two-list {
-  list-style: none; /* Nuqtalarni olib tashlaydi */
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 24px; /* Kartalar orasidagi bo'shliq */
+  gap: 16px; /* Gap-ni 20px dan 16px ga tushirdik */
+  margin-bottom: 16px;
 }
 
-/* Har bir li elementi (kartalar) */
+/* Karta: padding-ni kichraytirdik (24px -> 20px) */
 .two-item {
   display: flex;
-  align-items: flex-start; /* Ikonka va matnni yuqoridan tekislaydi */
-  gap: 20px;
-  padding: 24px;
+  align-items: center; /* Ikonka va matnni vertikal markazlashtiramiz */
+  gap: 16px;
+  padding: 20px;
   background-color: #ffffff;
   border-radius: 12px;
-  /* Kartalar atrofidagi yengil soya */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Soyani yengillashtirdik */
 }
 
-/* Ikonka joylashgan kichik doira */
+/* Ikonka: kichraytirdik (50px -> 42px) */
 .two-icon {
-  background-color: #fff5eb; /* Ikonka ortidagi och rang */
-  width: 50px;
-  height: 50px;
+  background-color: #fff5eb;
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 24px;
-  color: #ff9900; /* Ikonka rangi */
-  flex-shrink: 0; /* Ikonka o'lchami o'zgarmasligi uchun */
+  font-size: 20px;
+  color: #ff9900;
+  flex-shrink: 0;
 }
 
-
+/* Matn qismi */
 .twoList-titles h3 {
-  margin: 0 0 8px 0;
-  font-size: 20px;
-  font-weight: 600;
+  margin: 0 0 4px 0;
+  font-size: 18px; /* Sarlavhani kichraytirdik */
   color: #1a1a1a;
 }
 
 .twoList-text {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px; /* Matnni o'qish uchun qulay qildik */
   color: #666666;
-  line-height: 1.6;
-}
-.three-colored-line {
-  display: flex; 
-  width: 100%;
-  height: 6px; 
-  margin-top: 20px; 
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  transform: translate(0, -45px);
+  line-height: 1.5;
 }
 
-.line-part {
-  height: 100%;
+/* 3 rangli chiziq */
+.three-colored-line {
+  display: flex;
+  width: 100%;
+  height: 6px;
+  margin-top: -16px; /* Gap o'zgargani uchun bu ham o'zgardi */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
 }
 

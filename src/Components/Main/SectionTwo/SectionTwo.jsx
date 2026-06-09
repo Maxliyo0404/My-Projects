@@ -15,6 +15,7 @@ function SectionTwo() {
                      <h3 className="two-title1">{t("sectionTwo.two-title1")}</h3>
                      <p className="two-text">{t("sectionTwo.two-text")}</p>
                 </div>
+                <div className="two-right">
                 <ul className="two-list">
                     <li className="two-item">
                         <div className="two-icon"><FaRocket /></div>
@@ -38,13 +39,14 @@ function SectionTwo() {
                         </div>
                         <div className="line-bottom" style={{ backgroundColor: '#FF9900' }}></div>
                    </li>
-                   <div className="three-colored-line">
+                   
+                </ul>
+                 <div className="three-colored-line">
                      <div className="line-part" style={{ backgroundColor: '#FF9900', flex: 1 }}></div>
                      <div className="line-part" style={{ backgroundColor: '#FFCC99', flex: 1 }}></div>
                      <div className="line-part" style={{ backgroundColor: '#444CFC', flex: 1 }}></div>
                     </div>
-                   
-                </ul>
+            </div>
             </div>
         </div>
     </div>
