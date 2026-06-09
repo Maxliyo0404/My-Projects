@@ -19,19 +19,19 @@ function SectionThree() {
               <ul className="three-list">
                 <li className="three-item">
                     <div className="three-icon"><BiSupport /></div>
-                     <h2 className="threeList-title">{t("sectionThree.threeList-title")}</h2>
+                     <h2 className="threeList-title">{t("sectionThree.threeList-title1")}</h2>
                      <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                      <a className="three-link" href="#">{t("sectionThree.three-link")}<span className="three-span1"><FaLongArrowAltRight /></span></a>
                 </li>
                 <li className="three-item">
                     <div className="three-icon"><IoSettingsOutline /></div>
-                     <h2 className="threeList-title">{t("sectionThree.threeList-title")}</h2>
+                     <h2 className="threeList-title">{t("sectionThree.threeList-title2")}</h2>
                      <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                      <a className="three-link" href="#">{t("sectionThree.three-link")}<span className="three-span1"><FaLongArrowAltRight /></span></a>
                 </li>
                 <li className="three-item">
                     <div className="three-icon"><VscCalendar /></div>
-                     <h2 className="threeList-title">{t("sectionThree.threeList-title")}</h2>
+                     <h2 className="threeList-title">{t("sectionThree.threeList-title3")}</h2>
                      <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                      <a className="three-link" href="#">{t("sectionThree.three-link")}<span className="three-span1"><FaLongArrowAltRight /></span></a>
                 </li>

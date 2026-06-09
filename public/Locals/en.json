@@ -35,5 +35,15 @@
         "twoList-title2" : "Best Quality",
         "twoList-title3" : "Support Assist",
         "twoList-text" : "Through True Rich Attended does no end it his mother since real had half every him."
+    },
+    "sectionThree": {
+        "three-title": "Our Services",
+        "three-text": "We build software solutions that solve client's business challenges",
+        "three-btn": "Start a Project",
+        "threeList-title1": "Technical support",
+        "threeList-title2": "Testing Management",
+        "threeList-title3": "Development",
+        "threeList-text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service",
+        "three-link": "Read more"
     }
     }
