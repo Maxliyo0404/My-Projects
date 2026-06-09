@@ -38,6 +38,11 @@ function SectionTwo() {
                         </div>
                         <div className="line-bottom" style={{ backgroundColor: '#FF9900' }}></div>
                    </li>
+                   <div className="three-colored-line">
+                     <div className="line-part" style={{ backgroundColor: '#FF9900', flex: 1 }}></div>
+                     <div className="line-part" style={{ backgroundColor: '#FFCC99', flex: 1 }}></div>
+                     <div className="line-part" style={{ backgroundColor: '#444CFC', flex: 1 }}></div>
+                    </div>
                    
                 </ul>
             </div>
