@@ -8,7 +8,14 @@ function SectionTwo() {
     <div className="sectionTwo">
         <div className="container">
             <div className="sectionTwo-wrapper">
-                
+                <div className="two-left">
+                    <h6 className="two-title">{t("sectionTwo.two-title")}</h6>
+                     <h3 className="two-title1">{t("sectionTwo.two-title1")}</h3>
+                     <p className="two-text1">{t("sectionTwo.two-text1")}</p>
+                </div>
+                <div className="two-right">
+                    
+                </div>
             </div>
         </div>
     </div>
