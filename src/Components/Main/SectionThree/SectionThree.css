@@ -131,6 +131,7 @@ background: #FFA1551A;
     transform: translateX(0); 
   }
 }
+
 @media (max-width: 1024px) {
   .three-text {
     font-size: 36px;
@@ -139,12 +140,10 @@ background: #FFA1551A;
   }
 
   .three-list {
-    grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
 }
-
-/* --- 2. TELEFONLAR UCHUN (768px dan kichik) --- */
 @media (max-width: 728px) {
   .three-text {
     font-size: 28px;
@@ -152,15 +151,13 @@ background: #FFA1551A;
   }
 
   .three-list {
-    grid-template-columns: 1fr; /* 1 ta ustun */
+    grid-template-columns: 1fr; 
   }
 
   .three-item {
-    padding: 30px; /* Telefon uchun paddingni kamaytirdik */
+    padding: 30px;
   }
 }
-
-/* --- 3. JUDA KICHIK EKRANLAR UCHUN --- */
 @media (max-width: 480px) {
   .three-titles {
     margin-bottom: 40px;
@@ -172,7 +169,7 @@ background: #FFA1551A;
   }
 
   .three-btn {
-    width: 100%; /* Tugmani to'liq kenglikka cho'zamiz */
+    width: 100%; 
     justify-content: center;
   }
 }
