@@ -13,7 +13,9 @@ function SectionFive() {
                 <h3 className="five-title1">{t("sectionFive.five-title1")}</h3>
                 <p className="five-text">{t("sectionFive.five-text")}</p>
             </div>
-            <ul className="five-list"></ul>
+            <ul className="five-list">
+                <li className="five-item"></li>
+            </ul>
         </div>
         </div>
     </div>
