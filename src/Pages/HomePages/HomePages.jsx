@@ -4,6 +4,7 @@ import Hero from "../../Components/Main/Hero/Hero";
 import SectionOne from "../../Components/Main/SectionOne/SectionOne";
 import SectionTwo from "../../Components/Main/SectionTwo/SectionTwo";
 import SectionThree from "../../Components/Main/SectionThree/SectionThree";
+import SectionFive from "../../Components/Main/SectionFive/SectionFive";
 
 function HomePages() {
   return (
@@ -12,6 +13,7 @@ function HomePages() {
         <SectionOne/>
         <SectionTwo/>
         <SectionThree/>
+        <SectionFive/>
     </div>
   )
 }

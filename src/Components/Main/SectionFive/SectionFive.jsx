@@ -1,0 +1,21 @@
+import { useTranslation } from "react-i18next"
+import "./SectionFive.css"
+import React from 'react'
+
+function SectionFive() {
+    const [t, i18n] = useTranslation();
+  return (
+    <div className="sectionFive">
+        <div className="container">
+            <div className="sectionFive-wrapper">
+               <div className="five-titles">
+                <h6 className="five-title">{t("sectionFive.five-title")}</h6>
+                <h3 className="five-title1">{t("sectionFive.five-title1")}</h3>
+                <p className="five-text">{t("sectionFive.five-text")}</p></div> 
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default SectionFive
