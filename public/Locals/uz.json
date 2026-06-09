@@ -35,5 +35,15 @@
     "twoList-title2": "Eng yaxshi sifat",
     "twoList-title3": "Yordam ko‘rsatish",
     "twoList-text": "True Rich Attended orqali u onasini hech qachon tugatmaydi, chunki u har bir holatda juda xursand."
-}
+},
+"sectionThree": {
+    "three-title": "Bizning xizmatlar",
+    "three-text": "Biz mijozlarning biznes muammolarini hal qiladigan dasturiy yechimlarni yaratamiz",
+    "three-btn": "Loyihani boshlash",
+    "threeList-title1": "Texnik qo'llab-quvvatlash",
+    "threeList-title2": "Testlarni boshqarish",
+    "threeList-title3": "Dasturlash",
+    "threeList-text": "Biz mijozlarimizning eng yuqori qoniqishiga erishishni va jahon darajasidagi xizmatlar haqida gap ketganda eng taniqli nomlardan biri bo'lishni maqsad qilganmiz",
+    "three-link": "Batafsil o'qish"
+  }
 }

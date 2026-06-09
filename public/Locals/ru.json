@@ -35,5 +35,15 @@
     "twoList-title2": "Лучшее качество",
     "twoList-title3": "Поддержка клиентов",
     "twoList-text": "Through True Rich Attended does no end it his mother since real had half every him."
-}
+},
+"sectionThree": {
+    "three-title": "Наши услуги",
+    "three-text": "Мы создаем программные решения, которые решают бизнес-задачи наших клиентов",
+    "three-btn": "Начать проект",
+    "threeList-title1": "Техническая поддержка",
+    "threeList-title2": "Управление тестированием",
+    "threeList-title3": "Разработка",
+    "threeList-text": "Мы стремимся достичь максимального удовлетворения наших клиентов и быть одним из ведущих имен в сфере услуг мирового класса",
+    "three-link": "Читать далее"
+  }
 }
