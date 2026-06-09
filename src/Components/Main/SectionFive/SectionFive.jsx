@@ -20,6 +20,7 @@ function SectionFive() {
                         <h3 className="fiveList-title1">{t("sectionFive.fiveList-title1")}</h3>
                         <p className="fiveList-text">{t("sectionFive.fiveList-text")}</p>
                     </div>
+                    <h2 className="fiveList-number"></h2>
                 </li>
             </ul>
         </div>
