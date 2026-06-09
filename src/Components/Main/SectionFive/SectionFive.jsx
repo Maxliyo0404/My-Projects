@@ -36,7 +36,7 @@ function SectionFive() {
                         <h3 className="fiveList-title1">{t("sectionFive.fiveList-title1")}</h3>
                         <p className="fiveList-text">{t("sectionFive.fiveList-text")}</p>
                     </div>
-                    <h2 className="fiveList-number">01</h2>
+                    <h2 className="fiveList-number">03</h2>
                 </li>
                 <li className="five-item">
                     <div className="five-icon"></div>
