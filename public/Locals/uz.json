@@ -15,5 +15,16 @@
       "heroList-title": "Biz hamkorlik qilganmiz",
       "heroList-text": "Mijozlarimiz",
       "heroList-text1": "logoipsum"
-    }
+    },
+    "sectionOne": {
+    "one-title": "BIZ HAQIMIZDA",
+    "one-text": "Kompaniya veb-dizayn jarayonini kontseptsiyadan to yakuniy yetkazib berishgacha boshqaradi.",
+    "one-title1": "Texnologiyalar davri.",
+    "one-text1": "Texnologiyalar davrida biz innovatsion yechimlar va sifatli xizmat ko'rsatishga intilamiz. Mijozlarimizning muammolarini hal qilish va ularning biznesini rivojlantirish bizning ustuvor vazifamizdir.",
+    "oneList-text1": "Topshirilgan loyihalar",
+    "oneList-text2": "Professionallar",
+    "oneList-text3": "Mamnun mijozlar",
+    "oneList-text4": "Tajriba",
+    "one-link": "Biz haqimizda o'qish"
+  }
 }
