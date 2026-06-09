@@ -1,0 +1,63 @@
+.sectionThree{
+    background: #FFE6D2;
+
+}
+.sectionThree-wrapper{
+    padding: 60px 0;
+}
+.three-titles{
+    margin-bottom: 80px;
+}
+.three-title{
+    font-weight:500 ;
+    font-size:14px;
+    line-height:20px ;
+    color:#000000;
+    margin-bottom: 16px;
+    
+}
+.three-text{
+    max-width: 528px; 
+    font-weight:400 ;
+    font-size:16px;
+    line-height:24px ;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+    
+}
+.three-btn{
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #444CFC;
+    border: 1px solid #444CFC;
+    color: #FFFFFF;
+    font-weight:400 ;
+    font-size:16px;
+    line-height:24px ;
+    border: none;
+    &:hover{
+        transform: scale(1.1);
+        background: none;
+        border: 1px solid #444CFC;
+        
+    }
+}
+.three-span{
+    color: #FFFFFF;
+    font-size: 22px;
+    display: inline-block;
+    animation: moveArrow 1.5s infinite ease-in-out;
+}
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
