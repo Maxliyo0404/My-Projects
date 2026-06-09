@@ -131,5 +131,49 @@ background: #FFA1551A;
     transform: translateX(0); 
   }
 }
+@media (max-width: 1024px) {
+  .three-text {
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 100%;
+  }
 
+  .three-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+    gap: 20px;
+  }
+}
+
+/* --- 2. TELEFONLAR UCHUN (768px dan kichik) --- */
+@media (max-width: 728px) {
+  .three-text {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .three-list {
+    grid-template-columns: 1fr; /* 1 ta ustun */
+  }
+
+  .three-item {
+    padding: 30px; /* Telefon uchun paddingni kamaytirdik */
+  }
+}
+
+/* --- 3. JUDA KICHIK EKRANLAR UCHUN --- */
+@media (max-width: 480px) {
+  .three-titles {
+    margin-bottom: 40px;
+  }
+  .three-text{
+    max-width: 100%;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .three-btn {
+    width: 100%; /* Tugmani to'liq kenglikka cho'zamiz */
+    justify-content: center;
+  }
+}
 
