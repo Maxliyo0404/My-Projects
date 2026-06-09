@@ -12,9 +12,10 @@ function SectionOne() {
     <div className="sectionOne">
         <div className="container">
             <div className="sectionOne-wrapper">
+                 <h6 className="one-title">{t("sectionOne.one-title")}</h6>
                 <div className="one-titles">
+                  
                     <div className="one-left">
-                         <h6 className="one-title">{t("sectionOne.one-title")}</h6>
                          <p className="one-text">{t("sectionOne.one-text")}</p>
                     </div>
                     <div className="one-right">
@@ -33,7 +34,7 @@ function SectionOne() {
                 <div className="one-lists">
                <ul className="one-list">
                  <li className="one-item">
-                    <h2>1560+</h2>
+                    <h2 className="oneListitle">1560+</h2>
                   <div className="progress-bar">
                     <div className="blue"></div>
                     <div className="orange"></div>
@@ -42,7 +43,7 @@ function SectionOne() {
                    <p className="oneList-text">{t("sectionOne.oneList-text1")}</p>
                  </li>
                  <li className="one-item">
-                    <h2>100+</h2>
+                    <h2  className="oneListitle">100+</h2>
                   <div className="progress-bar">
                     <div className="blue"></div>
                     <div className="orange"></div>
@@ -51,7 +52,7 @@ function SectionOne() {
                    <p className="oneList-text">{t("sectionOne.oneList-text2")}</p>
                  </li>
                  <li className="one-item">
-                    <h2>950+</h2>
+                    <h2  className="oneListitle">950+</h2>
                   <div className="progress-bar">
                     <div className="blue"></div>
                     <div className="orange"></div>
@@ -60,7 +61,7 @@ function SectionOne() {
                    <p className="oneList-text">{t("sectionOne.oneList-text3")}</p>
                  </li>
                  <li className="one-item">
-                    <h2>10 yrs</h2>
+                    <h2  className="oneListitle">10 yrs</h2>
                   <div className="progress-bar">
                     <div className="blue"></div>
                     <div className="orange"></div>
