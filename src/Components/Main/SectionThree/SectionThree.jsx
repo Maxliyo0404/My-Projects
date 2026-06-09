@@ -14,7 +14,11 @@ function SectionThree() {
                 <div className="three-titles">
                     <h6 className="three-title">{t("sectionThree.three-title")}</h6>
                      <p className="three-text">{t("sectionThree.three-text")}</p>
-                      <button className="three-btn">{t("sectionThree.three-btn")} <span className="three-span"><FaLongArrowAltRight /></span></button>
+                      <button className="three-btn">
+                            <span className="yellow-box"></span> {/* Kvadrat tepa chapda */}
+                            {t("sectionThree.three-btn")} 
+                            <span className="three-span"><FaLongArrowAltRight /></span>
+                        </button>
               </div>
               <ul className="three-list">
                 <li className="three-item">

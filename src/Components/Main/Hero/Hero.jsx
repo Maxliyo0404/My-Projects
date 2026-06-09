@@ -19,7 +19,11 @@ function Hero() {
                     <div className="hero-left">
                         <h1 className="hero-title">{t("hero.hero-title")}</h1>
                         <p className="hero-text">{t("hero.hero-text")}</p>
-                         <button className="hero-btn">{t("hero.hero-btn")} <span className="hero-span"><FaLongArrowAltRight /></span></button>
+                          <button className="hero-btn">
+                            <span className="yellow-box"></span> {/* Kvadrat tepa chapda */}
+                            {t("sectionThree.three-btn")} 
+                            <span className="three-span"><FaLongArrowAltRight /></span>
+                        </button>
                     </div>
                     <div className="hero-right">
                         <img className="hero-img" src={heror} alt="rasm" />
