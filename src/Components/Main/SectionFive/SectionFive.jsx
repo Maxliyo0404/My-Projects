@@ -17,7 +17,8 @@ function SectionFive() {
                 <li className="five-item">
                     <div className="five-icon"></div>
                     <div className="fiveList-titles">
-                        
+                        <h3 className="five-title1">{t("sectionFive.five-title1")}</h3>
+                        <p className="five-text">{t("sectionFive.five-text")}</p>
                     </div>
                 </li>
             </ul>
