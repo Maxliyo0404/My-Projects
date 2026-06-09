@@ -43,34 +43,26 @@
   flex: 1;
   max-width: 450px;
 }
-
-/* Yaxlit oq blok */
 .cards-wrapper {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  overflow: hidden; /* Chiziqni yumaloq burchak ichida ushlaydi */
+  overflow: hidden; 
   display: flex;
   flex-direction: column;
 }
-
-/* Ro'yxat sozlamalari */
 .two-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-/* Har bir element */
 .two-item {
   display: flex;
   align-items: flex-start;
   gap: 16px;
   padding: 24px;
-  border-bottom: 1px solid #f0f0f0; /* Ajratuvchi chiziq */
+  border-bottom: 1px solid #f0f0f0; 
 }
-
-/* Ikonka */
 .two-icon {
   background-color: #fff5eb;
   width: 48px;
@@ -83,8 +75,6 @@
   font-size: 22px;
   flex-shrink: 0;
 }
-
-/* Matnlar */
 .twoList-titles h3 {
   margin: 0 0 6px 0;
   font-size: 18px;
@@ -97,15 +87,11 @@
   color: #666;
   line-height: 1.5;
 }
-
-/* 3 rangli chiziq */
 .three-colored-line {
   display: flex;
   width: 100%;
   height: 6px;
 }
-
-/* Chap tomon (ixtiyoriy uslub) */
 .two-left {
   max-width: 55%;
 }
@@ -131,16 +117,14 @@
     max-width: 100%;
   }
 }
-
-/* --- 3. MOBIL QURILMALAR (767px va undan kichik) --- */
 @media (max-width: 767px) {
   .two-title1 {
-    font-size: 28px; /* Matnni yanada kichraytiramiz */
-    line-height: 36px;
+    font-size: 28px; 
+    line-height: 32px;
   }
   
   .two-item {
-    padding: 16px; /* Kichik ekranda paddingni kamaytiramiz */
+    padding: 16px; 
     gap: 12px;
   }
   
@@ -154,8 +138,6 @@
     font-size: 16px;
   }
 }
-
-/* --- 4. JUDA KICHIK TELEFONLAR (480px va undan kichik) --- */
 @media (max-width: 480px) {
   .two-title1 {
     font-size: 24px;
@@ -163,7 +145,7 @@
   }
   
   .two-item {
-    flex-direction: column; /* Ikonka va matnni ustma-ust qilamiz */
+    flex-direction: column; 
     align-items: flex-start;
   }
 }
