@@ -60,11 +60,12 @@
     }
   },
   "sectionFour": {
-    "subtitle": "TESTIMONIALS",
     "title": "Our customers love what we do",
     "text": "Transform your idea into reality with Finsweet.",
+    "four-text" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+    "four-title" :"30+ Customer Reviews",
     "quote": "Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!",
-    "name": "John Doe",
-    "role": "CEO, Company"
+    "name": "Johnny Andro",
+    "role": "Director, Company"
   }
 }
