@@ -13,20 +13,21 @@ function SectionSix() {
                  <ul className="six-list">
                     <li className="six-item">
                         <img src={} alt="rasm" />
-                    </li>
-                    <li className="six-item">
-                         <p className="sixList-text">{t("sectionSix.sixList-text")}</p>
+                        <div className="six-right">
+                             <p className="sixList-text">{t("sectionSix.sixList-text")}</p>
                          <h4 className="sixList-text">{t("sectionSix.sixList-title1")}</h4>
                           <a className="sixList-link" href="#">{t("sectionSix.sixList-link")}<span className="sixList-span"></span></a>
+                        </div>
                     </li>
                     <li className="six-item">
                         <img src={} alt="rasm" />
-                    </li>
-                     <li className="six-item">
-                         <p className="sixList-text">{t("sectionSix.sixList-text")}</p>
+                        <div className="six-right">
+                             <p className="sixList-text">{t("sectionSix.sixList-text")}</p>
                          <h4 className="sixList-text">{t("sectionSix.sixList-title2")}</h4>
                           <a className="sixList-link" href="#">{t("sectionSix.sixList-link")}<span className="sixList-span"></span></a>
+                        </div>
                     </li>
+                    
                  </ul>
             </div>
         </div>
