@@ -7,6 +7,7 @@ function SectionSeven() {
   return (
     <div className="sectionSeven">
         <div className="container">
+            <div className="sectionSeven-wrappers">
             <div className="sectionSeven-wrapper">
                 <div className="decor-box">
                   <div className="d-orange"></div>
@@ -32,6 +33,7 @@ function SectionSeven() {
           </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

@@ -1,16 +1,17 @@
 .sectionSeven{
     padding: 60px 0;
 }
+.sectionSeven-wrappers{
+    background: #4C6EF5;
+}
 .sectionSeven-wrapper {
-  background: #4C6EF5; 
-  padding: 60px;
+padding: 60px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   overflow: hidden;
   color: white;
-  margin-bottom: 200px;
 }
 
 .decor-box {
@@ -59,8 +60,65 @@
 
 .newsletter-input { display: flex; background: white; padding: 5px; border-radius: 4px; width: 50%; }
 .newsletter-input input { border: none; padding: 15px; width:100%; outline: none; }
-@media (max-width: 768px) {
-  .sectionSeven-wrapper { flex-direction: column; text-align: center; gap: 30px; }
-  .newsletter-input { flex-direction: column; width: 100%; }
-  .newsletter-input input { width: 100%; }
+@media (max-width: 992px) {
+  .sectionSeven-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .newsletter-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .newsletter-text {
+    max-width: 100%;
+  }
+
+  .seven-title {
+    max-width: 100%;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    max-width: 400px;
+  }
+  .decor-box { transform: scale(0.8); transform-origin: top left; }
+}
+
+@media (max-width: 600px) {
+    .sectionSeven{
+        padding: 30px 0;
+    }
+  .sectionSeven-wrapper {
+    padding: 30px 20px;
+  }
+
+  .seven-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .decor-box {
+    transform: scale(0.6); 
+    transform-origin: top left; 
+  }
+
+  .side-bar {
+    width: 6px; 
+  }
+  .newsletter-input {
+    flex-direction: column;
+    background: transparent;
+    gap: 10px;
+  }
+
+  .newsletter-input input {
+    border-radius: 4px;
+    padding: 12px;
+  }
 }
