@@ -69,11 +69,10 @@
     "role": "Director, Company"
   },
   "sectionSix": {
-    "six-title": "",
-    "six-text": "",
-    "sixList-title1": "",
-    "sixList-title2": "",
-    "sixList-text": "",
-    "sixList-link": "",
+    "six-title": "Read our latest blogs & news",
+    "sixList-title1": "Today’s best design trends for digital products",
+    "sixList-title2": "A practical guide to building a brand strategy",
+    "sixList-text": "Jan 19, 2021",
+    "sixList-link": "Read More"
   }
 }
