@@ -66,5 +66,12 @@
     "quote": "Finsweet biz uchun ajoyib hamkor bo'ldi. Men so'nggi bir necha oy davomida ularning mijoziman va faqat ijobiy tajribaga ega bo'ldim!",
     "name": "Jon Doe",
     "role": "Kompaniya rahbari"
+  },
+  "sectionSix": {
+    "six-title": "Eng yangi blog va yangiliklarimizni o'qing",
+    "sixList-title1": "Raqamli mahsulotlar uchun bugungi kunning eng yaxshi dizayn trendlari",
+    "sixList-title2": "Brend strategiyasini yaratish bo'yicha amaliy qo'llanma",
+    "sixList-text": "19-yanvar, 2021-yil",
+    "sixList-link": "Batafsil o'qish"
   }
 }
