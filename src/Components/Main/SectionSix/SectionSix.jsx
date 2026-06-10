@@ -14,7 +14,7 @@ function SectionSix() {
                  <h2 className="six-title">{t("sectionSix.six-title")}</h2>
                  <ul className="six-list">
                     <li className="six-item">
-                        <img src={} alt="rasm" />
+                        <img src={sixP_1} alt="rasm" />
                         <div className="six-right">
                              <p className="sixList-text">{t("sectionSix.sixList-text")}</p>
                          <h4 className="sixList-text">{t("sectionSix.sixList-title1")}</h4>
