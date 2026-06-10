@@ -22,7 +22,6 @@ function SectionSeven() {
             
             <div className="newsletter-input">
               <input type="email" placeholder="Email@domain.com" />
-              <button>Subscribe</button>
             </div>
           </div>
 
