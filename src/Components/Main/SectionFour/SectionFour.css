@@ -107,10 +107,9 @@
     background: #232536;
   }
 }
-/* --- PLANShet UCHUN (max-width: 992px) --- */
 @media (max-width: 962px) {
   .sectionFour-wrapper {
-    flex-direction: column; /* Matn va kardni ustma-ust qo'yish */
+    flex-direction: column; 
     text-align: center;
     gap: 40px;
     padding: 40px 0;
@@ -126,11 +125,9 @@
   }
 
   .four-img {
-    justify-content: center; /* Rasmlarni markazga olish */
+    justify-content: center; 
   }
 }
-
-/* --- TELEFONLAR UCHUN (max-width: 600px) --- */
 @media (max-width: 600px) {
   .sectionFour-wrapper{
     padding: 30px 0;
@@ -142,22 +139,21 @@
 
   .testimonial-card {
     display: flex;
-    flex-direction: row; /* Chiziq va kontent yonma-yon qoladi */
-    align-items: stretch; /* Chiziq balandligi kard bilan bir xil bo'ladi */
+    flex-direction: row; 
+    align-items: stretch; 
     padding: 15px;
   }
 
-  /* Chiziqni yonida qoldirish */
   .vertical-bar {
-    width: 6px; /* Kengligini kichraytirdik */
-    height: auto; /* Balandligi kontentga qarab avtomatik bo'ladi */
-    margin-left: -15px; /* Manfiy marginni olib tashladik */
-    margin-right: 15px; /* Matndan biroz ajratib turish uchun */
+    width: 6px;
+    height: auto; 
+    margin-left: -15px;
+    margin-right: 15px;  
     flex-shrink: 0;
  }
   .quote-icon {
     font-size: 45px;
-    transform: translate(0, -40px); /* Mobil uchun joylashuvni to'g'irlash */
+    transform: translate(0, -40px); 
     text-align: end;
   }
   
