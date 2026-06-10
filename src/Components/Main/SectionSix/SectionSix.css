@@ -27,3 +27,7 @@
     max-width: 100%;
     display: flex;
 }
+.six-right{
+    padding: 32px;
+    background: #FFFFFF;
+}
