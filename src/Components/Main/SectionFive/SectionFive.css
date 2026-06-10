@@ -36,7 +36,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px; 
   position: relative;
-  margin-bottom: 100px;
 }
 
 .five-item {
@@ -44,18 +43,26 @@
   padding: 15px;
   position: relative;
   background: #fff;
+  min-height: 200px;
+  
 }
 
 .line-horizontal {
   position: absolute;
   height: 6px;
   width: 100%;
+  width: calc(100% + 15px ); 
+  left: -9px; 
+
+  
   display: flex; 
+
 }
 
 .line-part {
   flex: 1; 
   height: 100%;
+  
 }
 
 .orange { 
@@ -69,8 +76,8 @@
 .blue { 
   background-color: #4C6EF5; 
 }
-.bottom-start { bottom: -30px; left: 0; }
-.top-end { top: -30px; right: 0; }
+.bottom-start { bottom: -7px; } 
+.top-end { top: -7px; }      
 .five-number{
     text-align: end;
     color: #232536;
@@ -95,4 +102,42 @@
   color:#000000;
   font-size: 19px;
   flex-shrink: 0;
+}
+
+@media (max-width: 992px) {
+  .five-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+    gap: 20px;
+  }
+  
+  .five-title1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  
+}
+
+/* --- TELEFONLAR UCHUN (max-width: 600px) --- */
+@media (max-width: 600px) {
+    .sectionFive-wrapper{
+        padding: 30px 0;
+    }
+  .five-list {
+    grid-template-columns: 1fr; /* 1 ta ustun */
+    gap: 15px;
+  }
+
+  .five-title1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  /* Mobil versiyada chiziqlar joylashuvi */
+  .line-horizontal {
+    width: 100%;
+    left: -2px;
+   
+  }
+  
+ 
 }
