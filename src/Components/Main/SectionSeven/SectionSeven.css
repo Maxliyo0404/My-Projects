@@ -1,0 +1,57 @@
+.sectionSeven { padding: 80px 0; }
+
+.sectionSeven-wrapper {
+  background: #4C6EF5; /* Asosiy ko'k rang */
+  padding: 60px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+/* Burchakdagi dekorativ kvadratlar */
+.decor-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 20px);
+  gap: 2px;
+  padding: 20px;
+}
+.d-orange { background: #F48C42; width: 20px; height: 20px; }
+.d-light-orange { background: #FFD4A2; width: 20px; height: 20px; }
+.d-blue { background: #738bf5; width: 20px; height: 20px; }
+
+/* O'ng tarafdagi rangli chiziq */
+.side-bar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.s-orange { flex: 1; background: #F48C42; }
+.s-light-orange { flex: 1; background: #FFD4A2; }
+.s-blue { flex: 1; background: #4C6EF5; }
+
+/* Matn va Input */
+.newsletter-content { display: flex; align-items: center; gap: 40px; width: 100%; }
+.newsletter-text { flex: 1; }
+.newsletter-text h2 { font-size: 32px; margin-top: 10px; }
+
+.newsletter-input { display: flex; background: white; padding: 5px; border-radius: 4px; }
+.newsletter-input input { border: none; padding: 15px; width: 250px; outline: none; }
+.newsletter-input button { background: #F48C42; color: white; border: none; padding: 10px 25px; border-radius: 4px; cursor: pointer; }
+
+/* Mobil uchun */
+@media (max-width: 768px) {
+  .sectionSeven-wrapper { flex-direction: column; text-align: center; gap: 30px; }
+  .newsletter-input { flex-direction: column; width: 100%; }
+  .newsletter-input input { width: 100%; }
+}
