@@ -22,7 +22,7 @@ function SectionSix() {
                         </div>
                     </li>
                     <li className="six-item">
-                        <img src={} alt="rasm" />
+                        <img src={sixP_2} alt="rasm" />
                         <div className="six-right">
                              <p className="sixList-text">{t("sectionSix.sixList-text")}</p>
                          <h4 className="sixList-text">{t("sectionSix.sixList-title2")}</h4>
