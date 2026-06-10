@@ -37,7 +37,7 @@ function Footer() {
                 <a className='footer-link' href="#">{t("footer.footer-Technical support")}</a>
                 <a className='footer-link' href="#">{t("footer.footer-Testing")}</a>
                 <a className='footer-link' href="#">{t("footer.footer-Development")}</a>
-                <a className='footer-link' href="#">{t("footer.footer-AWS/Azure")}</a>
+                <a className='footer-link' href="#">{t("footer.footer-AWS/Azure ")}</a>
                 <a className='footer-link' href="#">{t("footer.footer-Consulting")}</a>
                 <a className='footer-link' href="#">{t("footer.footer-Information Technology")}</a>
               </li>
