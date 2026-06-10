@@ -48,6 +48,11 @@ function SectionFour() {
         </div>
       </div>
     </div>
+      </div>
+                    <div className="four-litters">
+                      <div className="four-litter"></div>
+                      <div className="four-litter"></div>
+                      <div className="four-litter"></div>
                     </div>
          </div>
         </div>
