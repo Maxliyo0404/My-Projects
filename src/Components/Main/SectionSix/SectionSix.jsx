@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionSix.css";
 import React from 'react'
+import sixP_1 from
 
 function SectionSix() {
     const [t, i18n] = useTranslation();
