@@ -6,10 +6,50 @@
   gap: 60px;
 }
 
-.four-left { max-width: 400px; }
-.four-title { font-size: 48px; margin-bottom: 20px; }
+.four-left { max-width: 45%; }
 
-/* Kard uslubi */
+.four-title{
+    font-weight:600 ;
+    font-size: 48px;
+    line-height: 58px ;
+    color:#232536;
+    margin-bottom: 16px;
+    
+}
+.four-text{
+    font-weight:500 ;
+    font-size: 18px;
+    line-height: 28px ;
+    color:#232536;
+    margin-bottom: 16px;
+    
+}
+.four-texte{
+    max-width: 492px;
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 24px ;
+    color:#232536;
+    margin-bottom: 24px;
+    
+}
+.four-titlee{
+    max-width: 100%;
+    font-weight:500 ;
+    font-size: 12px;
+    line-height: 16px ;
+    color:#000000;
+    
+}
+.four-img{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.four-right{
+  max-width: 55%;
+}
 .testimonial-card {
   display: flex;
   background: white;
@@ -18,7 +58,6 @@
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
-/* Vertikal chiziq */
 .vertical-bar {
   width: 6px;
   display: flex;
@@ -29,7 +68,6 @@
 .v-light-orange { flex: 1; background-color: #FFD4A2; }
 .v-blue { flex: 1; background-color: #4C6EF5; }
 
-/* Muallif qismi */
 .card-author {
   display: flex;
   align-items: center;
@@ -38,7 +76,7 @@
 }
 .author-img { width: 50px; height: 50px; border-radius: 50%; }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .sectionFour-wrapper { flex-direction: column; text-align: center; }
   .four-left { max-width: 100%; }
