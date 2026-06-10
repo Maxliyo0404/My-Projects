@@ -27,6 +27,9 @@
     max-width: 100%;
     display: flex;
 }
+.six-img{
+    max-width: 50%;
+}
 .six-right{
     padding: 32px;
     background: #FFFFFF;
