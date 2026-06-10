@@ -1,8 +1,9 @@
-
+.sectionSeven{
+    padding: 60px 0;
+}
 .sectionSeven-wrapper {
   background: #4C6EF5; 
   padding: 60px;
-  border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,11 +20,10 @@
   display: grid;
   grid-template-columns: repeat(2, 20px);
   gap: 2px;
-  padding: 20px;
 }
-.d-orange { background: #F48C42; width: 20px; height: 20px; }
-.d-light-orange { background: #FFD4A2; width: 20px; height: 20px; }
-.d-blue { background: #738bf5; width: 20px; height: 20px; }
+.d-orange { background: #F48C42; width: 62px; height: 50px; }
+.d-light-orange { background: #FFFFFF66;width: 77px; height: 29px; }
+.d-blue { background: #738bf5; width: 29px; height: 29px; margin-top: -5px;}
 
 /* O'ng tarafdagi rangli chiziq */
 .side-bar {

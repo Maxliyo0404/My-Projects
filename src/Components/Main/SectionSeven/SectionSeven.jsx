@@ -9,19 +9,19 @@ function SectionSeven() {
         <div className="container">
             <div className="sectionSeven-wrapper">
                 <div className="decor-box">
-            <div className="d-orange"></div>
-            <div className="d-light-orange"></div>
-            <div className="d-blue"></div>
-          </div>
+                  <div className="d-orange"></div>
+                  <div className="d-light-orange"></div>
+                  <div className="d-blue"></div>
+               </div>
 
           <div className="newsletter-content">
             <div className="newsletter-text">
-              <span className="subtitle">NEWSLETTER</span>
-              <h2>Subscribe our News Letter to get Latest Updates.</h2>
+              <span className="subtitle">{t("sectionSeven.subtitle")}</span>
+              <h2 className="seven-title">{t("sectionSeven.seven-title")}</h2>
             </div>
             
             <div className="newsletter-input">
-              <input type="email" placeholder="Email@domain.com" />
+              <input type="email" placeholder=  {t("sectionSeven.seven-email")}  />
             </div>
           </div>
 
