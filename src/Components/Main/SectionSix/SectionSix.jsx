@@ -5,7 +5,13 @@ import React from 'react'
 function SectionSix() {
     const [t, i18n] = useTranslation();
   return (
-    <div>SectionSix</div>
+    <div className="sectionSix">
+        <div className="container">
+            <div className="sectionSix-wrapper">
+                
+            </div>
+        </div>
+    </div>
   )
 }
 
