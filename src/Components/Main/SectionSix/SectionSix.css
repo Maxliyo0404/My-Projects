@@ -34,3 +34,19 @@
     padding: 32px;
     background: #FFFFFF;
 }
+.sixList-text{
+    font-weight:600 ;
+    font-size: 24px;
+    line-height: 36px ;
+    color:#232536;
+    margin-bottom: 24px;
+    
+}
+.sixList-title{
+    font-weight:600 ;
+    font-size: 24px;
+    line-height: 36px ;
+    color:#232536;
+    margin-bottom: 24px;
+    
+}
