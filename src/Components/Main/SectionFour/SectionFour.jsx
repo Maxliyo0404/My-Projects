@@ -4,6 +4,7 @@ import React from 'react';
 import fourP_1 from "./image/fourP_1.png";
 import fourP_2 from "./image/fourP_2.png";
 import fourP_3 from "./image/fourP_3.png";
+import { CgQuote } from "react-icons/cg";
 function SectionFour() {
   const { t } = useTranslation();
 
@@ -26,7 +27,7 @@ function SectionFour() {
           </div>
 
          <div className="four-right">
-  <div className="testimonial-card">
+                 <div className="testimonial-card">
     <div className="vertical-bar">
       <div className="v-orange"></div>
       <div className="v-light-orange"></div>
@@ -34,8 +35,8 @@ function SectionFour() {
     </div>
     
     <div className="card-content">
-      <div className="quote-icon">,,</div> 
-      
+      <div className="quote-icon"><CgQuote /></div> 
+      <div className="four-card">
       <p className="card-quote">{t("sectionFour.quote")}</p>
       
       <div className="card-author">
@@ -44,10 +45,11 @@ function SectionFour() {
           <h4>{t("sectionFour.name")}</h4>
           <span>{t("sectionFour.role")}</span>
         </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+                    </div>
+         </div>
         </div>
       </div>
     </div>

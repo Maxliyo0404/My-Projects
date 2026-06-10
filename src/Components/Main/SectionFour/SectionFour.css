@@ -48,21 +48,25 @@
   margin-bottom: 14px;
 }
 .four-right{
-  max-width: 55%;
+  max-width: 50%;
 }
 .testimonial-card {
+  
   display: flex;
   background: white;
-  padding: 30px;
+  padding: 15px 30px;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
+.four-card{
+  margin-left: 20px;
 
+}
 .vertical-bar {
-  width: 6px;
+  width: 16px;
   display: flex;
   flex-direction: column;
-  margin-right: 25px;
+  margin-left: -30px;
 }
 .v-orange { flex: 1; background-color: #F48C42; }
 .v-light-orange { flex: 1; background-color: #FFD4A2; }
@@ -74,10 +78,8 @@
   margin-top: 20px;
   gap: 15px;
 }
-.author-img { width: 50px; height: 50px; border-radius: 50%; }
-
-
-@media (max-width: 768px) {
-  .sectionFour-wrapper { flex-direction: column; text-align: center; }
-  .four-left { max-width: 100%; }
+.quote-icon{
+  text-align: end;
+  font-size: 70px;
+  transform: translate(20px, -55px);
 }
