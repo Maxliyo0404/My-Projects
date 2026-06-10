@@ -49,14 +49,14 @@
     "sectionFive": {
     "five-title": "OUR PROCESS",
     "five-title1": "The process we are working with our client worldwide",
-    "five-text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent.",
+    "five-text": "Through transactional standards to end it, it's mother since real half of every tere sose knowledge inquire away specials unavailable.",
     "steps": {
-      "discovery": { "title": "Discovery", "text": "We research to understand requirements." },
-      "designing": { "title": "Designing", "text": "Creating aesthetic and functional interfaces." },
-      "development": { "title": "Development", "text": "Writing clean and efficient code." },
-      "testing": { "title": "Testing", "text": "Ensuring the product is bug-free." },
-      "deployment": { "title": "Deployment", "text": "Launching the project to the world." },
-      "maintenance": { "title": "Maintenance", "text": "Providing long-term support." }
+      "discovery": { "title": "Discovery", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." },
+      "designing": { "title": "Designing", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." },
+      "development": { "title": "Development", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." },
+      "testing": { "title": "Testing", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." },
+      "deployment": { "title": "Deployment", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." },
+      "maintenance": { "title": "Maintenance", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." }
     }
   }
 }

@@ -1,3 +1,36 @@
+
+.sectionFive-wrapper{
+   padding: 60px 0;
+}
+.five-titles{
+    max-width: 733px;
+    margin-bottom: 48px;
+}
+.five-title{
+    font-weight:500 ;
+    font-size:14px;
+    line-height:20px ;
+    color:#000000;
+    margin-bottom: 16px;
+    
+}
+.five-title1{
+    max-width: 777px; 
+    font-weight:600 ;
+    font-size:48px;
+    line-height:58px ;
+    color: #232536;
+    margin-bottom: 16px;
+    
+}
+.five-text{
+    max-width: 642px; 
+    font-weight:400 ;
+    font-size:16px;
+    line-height:24px ;
+    color: #232536;
+}
+
 .five-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13,29 +46,35 @@
   background: #fff;
 }
 
-/* Chiziqlarning umumiy uslubi */
 .line-horizontal {
   position: absolute;
   height: 6px;
   width: 100%;
-  display: flex;
+  display: flex; /* Rangli qismlarni yonma-yon qo'yish uchun */
 }
 
-/* 01-kard uchun pastki chiziq */
-.line-horizontal.bottom-start {
-  bottom: -30px; /* Borderdan tashqariga chiqishi uchun */
-  left: 0;
+/* Har bir rangli qism */
+.line-part {
+  flex: 1; /* Har biri teng 33.3% joy oladi */
+  height: 100%;
 }
 
-/* 06-kard uchun tepa chiziq */
-.line-horizontal.top-end {
-  top: -30px;
-  right: 0;
+/* Rasmga mos aniq ranglar */
+.orange { 
+  background-color: #F48C42; /* To'q sariq */
 }
 
-/* 3 rangli chiziq qismi */
-.line-horizontal::before { content: ''; flex: 1; background: #3b82f6; }
-.line-horizontal::after { content: ''; flex: 1; background: #fb923c; }
+.light-orange { 
+  background-color: #FFD4A2; /* Och sariq/pushti tusdagi */
+}
+
+.blue { 
+  background-color: #4C6EF5; /* Ko'k */
+}
+
+/* Joylashuvi */
+.bottom-start { bottom: -30px; left: 0; }
+.top-end { top: -30px; right: 0; }
 .five-number{
     text-align: end;
     color: #232536;
@@ -43,6 +82,11 @@
     font-size: 24px;
     line-height: 32px;
     opacity: 20%;
+}
+.fiveList-titles{
+    display: flex;
+    align-items: start;
+    gap: 16px;
 }
 .five-icon{
    background-color: #fff5eb;

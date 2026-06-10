@@ -18,6 +18,7 @@ function SectionFive() {
   return (
     <div className="sectionFive">
       <div className="container">
+        <div className="sectionFive-wrapper">
         <div className="five-titles">
           <h6 className="five-title">{t("sectionFive.five-title")}</h6>
           <h3 className="five-title1">{t("sectionFive.five-title1")}</h3>
@@ -28,19 +29,33 @@ function SectionFive() {
   {steps.map((step, index) => (
     <li className="five-item" key={step.key}>
       <h2 className="five-number">{step.id}</h2>
-      <div className="five-titles">
+      <div className="fiveList-titles">
       <div className="five-icon">{step.icon}</div>
+      <div className="five-texts">
       <h3 className="fiveList-title1">{t(`sectionFive.steps.${step.key}.title`)}</h3>
       <p className="fiveList-text">{t(`sectionFive.steps.${step.key}.text`)}</p>
       
-      {/* 01 va 06 uchun chiziqlar (CSS orqali positioning) */}
-      {index === 2 && <div className="line-horizontal bottom-start"></div>}
-      {index === 3 && <div className="line-horizontal top-end"></div>}
+      {index === 2 && (
+  <div className="line-horizontal bottom-start">
+    <div className="line-part orange"></div>
+    <div className="line-part light-orange"></div>
+    <div className="line-part blue"></div>
+  </div>
+)}
+{index === 3 && (
+  <div className="line-horizontal top-end">
+    <div className="line-part orange"></div>
+    <div className="line-part light-orange"></div>
+    <div className="line-part blue"></div>
+  </div>
+)}
+       </div>
        </div>
     </li>
   ))}
 </ul>
       </div>
+    </div>
     </div>
   );
 }

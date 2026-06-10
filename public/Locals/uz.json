@@ -49,14 +49,14 @@
   "sectionFive": {
     "five-title": "BIZNING JARAYON",
     "five-title1": "Mijozlarimiz bilan butun dunyo bo'ylab ishlash jarayoni",
-    "five-text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz.",
+    "five-text": "Through transactional standards to end it, it's mother since real half of every tere sose knowledge inquire away specials unavailable.",
     "steps": {
-      "discovery": { "title": "Tadqiqot", "text": "Talablarni tushunish uchun tadqiqot olib boramiz." },
-      "designing": { "title": "Dizayn", "text": "Estetik va funksional interfeyslar yaratish." },
-      "development": { "title": "Dasturlash", "text": "Toza va samarali kod yozish." },
-      "testing": { "title": "Testlash", "text": "Mahsulotning xatolarsiz ishlashini ta'minlash." },
-      "deployment": { "title": "Ishga tushirish", "text": "Loyihani foydalanuvchilarga taqdim etish." },
-      "maintenance": { "title": "Texnik xizmat", "text": "Uzoq muddatli yordam ko'rsatish." }
+      "discovery": { "title": "Tadqiqot", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." },
+      "designing": { "title": "Dizayn", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." },
+      "development": { "title": "Dasturlash", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." },
+      "testing": { "title": "Testlash", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." },
+      "deployment": { "title": "Ishga tushirish", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." },
+      "maintenance": { "title": "Texnik xizmat", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." }
     }
   }
 }
