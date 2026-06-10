@@ -51,3 +51,30 @@
     margin-bottom: 24px;
     
 }
+.sixList-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight:500 ;
+    font-size: 16px;
+    line-height: 24px ;
+    color:#444CFC;
+
+}
+.sixList-span{
+    color: #444CFC;
+    font-size: 22px;
+    display: inline-block;
+    animation: moveArrow 1.5s infinite ease-in-out;
+}
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
