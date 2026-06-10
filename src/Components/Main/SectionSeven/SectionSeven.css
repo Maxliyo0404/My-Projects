@@ -34,8 +34,8 @@
   display: flex;
   flex-direction: column;
 }
-.s-orange { flex: 1; background: #F48C42;  }
-.s-light-orange { flex: 1; background: #FFD4A2; }
+.s-orange { flex: 1; background: #FFA155;  }
+.s-light-orange { flex: 3; background: #FFD4A2; }
 .s-blue { flex: 1; background: #2c52ea; }
 
 .newsletter-content { display: flex; align-items: center; gap: 40px; width: 100%; }
@@ -59,7 +59,6 @@
 
 .newsletter-input { display: flex; background: white; padding: 5px; border-radius: 4px; width: 50%; }
 .newsletter-input input { border: none; padding: 15px; width:100%; outline: none; }
-
 @media (max-width: 768px) {
   .sectionSeven-wrapper { flex-direction: column; text-align: center; gap: 30px; }
   .newsletter-input { flex-direction: column; width: 100%; }
