@@ -45,5 +45,18 @@
         "threeList-title3": "Development",
         "threeList-text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service",
         "three-link": "Read more"
+    },
+    "sectionFive": {
+    "five-title": "OUR PROCESS",
+    "five-title1": "The process we are working with our client worldwide",
+    "five-text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent.",
+    "steps": {
+      "discovery": { "title": "Discovery", "text": "We research to understand requirements." },
+      "designing": { "title": "Designing", "text": "Creating aesthetic and functional interfaces." },
+      "development": { "title": "Development", "text": "Writing clean and efficient code." },
+      "testing": { "title": "Testing", "text": "Ensuring the product is bug-free." },
+      "deployment": { "title": "Deployment", "text": "Launching the project to the world." },
+      "maintenance": { "title": "Maintenance", "text": "Providing long-term support." }
     }
-    }
+  }
+}
