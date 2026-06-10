@@ -4,3 +4,9 @@
 .sectionSix-wrapper{
     padding: 60px 0;
 }
+.six-box{
+  width:16px;
+  height: 16px ;
+  background: #4C6EF5;
+  margin-bottom: 19px;
+}
