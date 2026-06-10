@@ -29,6 +29,7 @@
 }
 .six-img{
     max-width: 50%;
+    
 }
 .six-right{
     padding: 32px;
@@ -78,7 +79,7 @@
     transform: translateX(0); 
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 962px) {
   .six-list {
     grid-template-columns: 1fr; /* 2 ustundan 1 ustunga o'tish */
     gap: 20px;
