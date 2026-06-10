@@ -81,29 +81,27 @@
 }
 @media (max-width: 962px) {
   .six-list {
-    grid-template-columns: 1fr; /* 2 ustundan 1 ustunga o'tish */
+    grid-template-columns: 1fr; 
     gap: 20px;
   }
   
   .six-item {
-    flex-direction: column; /* Rasm va matnni ustma-ust qilish */
+    flex-direction: column; 
   }
 
   .six-img {
-    max-width: 100%; /* Rasm to'liq kenglikni oladi */
+    max-width: 100%; 
   }
 }
-
-/* --- TELEFONLAR UCHUN (max-width: 600px) --- */
 @media (max-width: 600px) {
   .six-title {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
     margin-bottom: 30px;
   }
 
   .six-right {
-    padding: 20px; /* Telefon ekranida paddingni kamaytiramiz */
+    padding: 20px; 
   }
 
   .sixList-title {
