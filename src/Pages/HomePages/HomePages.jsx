@@ -8,6 +8,7 @@ import SectionFive from "../../Components/Main/SectionFive/SectionFive";
 import SectionFour from "../../Components/Main/SectionFour/SectionFour";
 import SectionSix from "../../Components/Main/SectionSix/SectionSix";
 import SectionSeven from "../../Components/Main/SectionSeven/SectionSeven";
+import Footer from "../../Components/Footer/Footer";
 
 function HomePages() {
   return (
@@ -20,6 +21,7 @@ function HomePages() {
         <SectionFour/>
         <SectionSix/>
         <SectionSeven/>
+        <Footer/>
     </div>
   )
 }

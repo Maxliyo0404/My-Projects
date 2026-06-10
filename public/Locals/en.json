@@ -79,5 +79,32 @@
     "subtitle": "NEWSLETTER",
     "seven-title": "Subscribe our News Letter to get Latest Updates.",
     "seven-email": "Paresh@Pixeto.com"
+  },
+  "footer": {
+    "footer-title": "Let's make something special",
+    "talk": "Let's talk! 👋",
+    "footer-text1": "020 7993 2905",
+    "footer-text2": "hi@finsweet.com",
+    "footer-text3": "DLF Cybercity, Bhubaneswar, India, 751024",
+    "footer-home": "Home",
+    "footer-Service": "Service",
+    "footer-company": "Company",
+    "footer-career": "Career",
+    "footer-news": "News",
+    "footer-Technical support": "Technical support",
+    "footer-Testing": "Testing",
+    "footer-Development": "Development",
+    "footer-AWS/Azure ": "AWS/Azure",
+    "footer-Consulting": "Consulting",
+    "footer-Information Technology": "Information Technology",
+    "footer-Resourses": "Resources",
+    "footer-About Us": "About Us",
+    "footer-Testimonial": "Testimonial",
+    "footer-Privacy Policy": "Privacy Policy",
+    "footer-Terms of use": "Terms of use",
+    "footer-Blog": "Blog",
+    "footer-linke": "Connect us",
+    "brand-name": "Finsweet",
+    "footer-brand": "©2026 Finsweet"
   }
 }

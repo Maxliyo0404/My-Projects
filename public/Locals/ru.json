@@ -78,5 +78,32 @@
     "subtitle": "НОВОСТНАЯ РАССЫЛКА",
     "seven-title": "Подпишитесь на нашу рассылку, чтобы получать последние обновления.",
     "seven-email": "Paresh@Pixeto.com"
+  },
+  "footer": {
+    "footer-title": "Давайте сделаем что-то особенное",
+    "talk": "Давайте общаться! 👋",
+    "footer-text1": "020 7993 2905",
+    "footer-text2": "hi@finsweet.com",
+    "footer-text3": "DLF Cybercity, Бхубанешвар, Индия, 751024",
+    "footer-home": "Главная",
+    "footer-Service": "Сервис",
+    "footer-company": "Компания",
+    "footer-career": "Карьера",
+    "footer-news": "Новости",
+    "footer-Technical support": "Техническая поддержка",
+    "footer-Testing": "Тестирование",
+    "footer-Development": "Разработка",
+    "footer-AWS/Azure ": "AWS/Azure",
+    "footer-Consulting": "Консалтинг",
+    "footer-Information Technology": "Информационные технологии",
+    "footer-Resourses": "Ресурсы",
+    "footer-About Us": "О нас",
+    "footer-Testimonial": "Отзывы",
+    "footer-Privacy Policy": "Политика конфиденциальности",
+    "footer-Terms of use": "Условия использования",
+    "footer-Blog": "Блог",
+    "footer-linke": "Связаться",
+    "brand-name": "Finsweet",
+    "footer-brand": "©2026 Finsweet"
   }
 }

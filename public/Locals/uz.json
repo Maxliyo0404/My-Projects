@@ -78,5 +78,32 @@
     "subtitle": "YANGILIKLAR XABARNOMASI",
     "seven-title": "Eng so'nggi yangiliklardan xabardor bo'lish uchun obuna bo'ling.",
     "seven-email": "Paresh@Pixeto.com"
+  },
+  "footer": {
+    "footer-title": "Keling, o'zgacha narsa yarataylik",
+    "talk": "Bog'lanish! 👋",
+    "footer-text1": "020 7993 2905",
+    "footer-text2": "hi@finsweet.com",
+    "footer-text3": "DLF Cybercity, Bhubaneswar, Hindiston, 751024",
+    "footer-home": "Asosiy",
+    "footer-Service": "Xizmat",
+    "footer-company": "Kompaniya",
+    "footer-career": "Karyera",
+    "footer-news": "Yangiliklar",
+    "footer-Technical support": "Texnik yordam",
+    "footer-Testing": "Testlash",
+    "footer-Development": "Dasturlash",
+    "footer-AWS/Azure ": "AWS/Azure",
+    "footer-Consulting": "Konsalting",
+    "footer-Information Technology": "Axborot texnologiyalari",
+    "footer-Resourses": "Resurslar",
+    "footer-About Us": "Biz haqimizda",
+    "footer-Testimonial": "Mijozlar fikri",
+    "footer-Privacy Policy": "Maxfiylik siyosati",
+    "footer-Terms of use": "Foydalanish shartlari",
+    "footer-Blog": "Blog",
+    "footer-linke": "Bog'lanish",
+    "brand-name": "Finsweet",
+    "footer-brand": "©2026 Finsweet"
   }
 }
