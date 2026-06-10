@@ -36,19 +36,19 @@ function SectionFive() {
       <p className="fiveList-text">{t(`sectionFive.steps.${step.key}.text`)}</p>
       
       {index === 2 && (
-  <div className="line-horizontal bottom-start">
+        <div className="line-horizontal bottom-start">
     <div className="line-part orange"></div>
     <div className="line-part light-orange"></div>
     <div className="line-part blue"></div>
-  </div>
-)}
-{index === 3 && (
-  <div className="line-horizontal top-end">
-    <div className="line-part orange"></div>
-    <div className="line-part light-orange"></div>
-    <div className="line-part blue"></div>
-  </div>
-)}
+       </div>
+     )}
+      {index === 3 && (
+     <div className="line-horizontal top-end">
+        <div className="line-part orange"></div>
+        <div className="line-part light-orange"></div>
+        <div className="line-part blue"></div>
+      </div>
+      )}
        </div>
        </div>
     </li>

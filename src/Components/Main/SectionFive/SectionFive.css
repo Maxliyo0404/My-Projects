@@ -34,7 +34,7 @@
 .five-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px; /* Kartalar orasidagi masofa chiziq uchun kerak */
+  gap: 30px; 
   position: relative;
   margin-bottom: 100px;
 }
@@ -50,29 +50,25 @@
   position: absolute;
   height: 6px;
   width: 100%;
-  display: flex; /* Rangli qismlarni yonma-yon qo'yish uchun */
+  display: flex; 
 }
 
-/* Har bir rangli qism */
 .line-part {
-  flex: 1; /* Har biri teng 33.3% joy oladi */
+  flex: 1; 
   height: 100%;
 }
 
-/* Rasmga mos aniq ranglar */
 .orange { 
-  background-color: #F48C42; /* To'q sariq */
+  background-color: #F48C42; 
 }
 
 .light-orange { 
-  background-color: #FFD4A2; /* Och sariq/pushti tusdagi */
+  background-color: #FFD4A2; 
 }
 
 .blue { 
-  background-color: #4C6EF5; /* Ko'k */
+  background-color: #4C6EF5; 
 }
-
-/* Joylashuvi */
 .bottom-start { bottom: -30px; left: 0; }
 .top-end { top: -30px; right: 0; }
 .five-number{
