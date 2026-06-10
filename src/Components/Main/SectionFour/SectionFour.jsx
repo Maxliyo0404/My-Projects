@@ -13,6 +13,7 @@ function SectionFour() {
       <div className="container">
         <div className="sectionFour-wrapper">
           <div className="four-left">
+            <div className="four-box"></div>
             <h2 className="four-title">{t("sectionFour.title")}</h2>
             <p className="four-text">{t("sectionFour.text")}</p>
             <p className="four-texte">{t("sectionFour.four-text")}</p>

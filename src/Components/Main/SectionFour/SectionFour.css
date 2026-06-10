@@ -7,7 +7,12 @@
 }
 
 .four-left { max-width: 45%; }
-
+.four-box{
+  width:16px;
+  height: 16px ;
+  background: #4C6EF5;
+  margin-bottom: 16px;
+}
 .four-title{
     font-weight:600 ;
     font-size: 48px;
