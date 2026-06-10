@@ -25,7 +25,6 @@
 .d-light-orange { background: #FFFFFF66;width: 77px; height: 29px; }
 .d-blue { background: #738bf5; width: 29px; height: 29px; margin-top: -5px;}
 
-/* O'ng tarafdagi rangli chiziq */
 .side-bar {
   position: absolute;
   right: 0;
@@ -35,20 +34,32 @@
   display: flex;
   flex-direction: column;
 }
-.s-orange { flex: 1; background: #F48C42; }
+.s-orange { flex: 1; background: #F48C42;  }
 .s-light-orange { flex: 1; background: #FFD4A2; }
-.s-blue { flex: 1; background: #4C6EF5; }
+.s-blue { flex: 1; background: #2c52ea; }
 
-/* Matn va Input */
 .newsletter-content { display: flex; align-items: center; gap: 40px; width: 100%; }
-.newsletter-text { flex: 1; }
-.newsletter-text h2 { font-size: 32px; margin-top: 10px; }
+.newsletter-text{
+    max-width: 50%;
+}
+.subtitle{
+    font-weight:500 ;
+    font-size: 14px;
+    line-height: 20px ;
+    color:#FFFFFF;
+    margin-bottom: 13px;
+}
+.seven-title{
+    max-width: 488px;
+    font-weight:600 ;
+    font-size: 36px;
+    line-height: 54px ;
+    color:#FFFFFF;
+}
 
-.newsletter-input { display: flex; background: white; padding: 5px; border-radius: 4px; }
-.newsletter-input input { border: none; padding: 15px; width: 250px; outline: none; }
-.newsletter-input button { background: #F48C42; color: white; border: none; padding: 10px 25px; border-radius: 4px; cursor: pointer; }
+.newsletter-input { display: flex; background: white; padding: 5px; border-radius: 4px; width: 50%; }
+.newsletter-input input { border: none; padding: 15px; width:100%; outline: none; }
 
-/* Mobil uchun */
 @media (max-width: 768px) {
   .sectionSeven-wrapper { flex-direction: column; text-align: center; gap: 30px; }
   .newsletter-input { flex-direction: column; width: 100%; }
