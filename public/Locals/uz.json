@@ -58,5 +58,13 @@
       "deployment": { "title": "Ishga tushirish", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." },
       "maintenance": { "title": "Texnik xizmat", "text": "Biz mijozlarimiz uchun eng yuqori qoniqishni ta'minlashni va yetakchilardan biri bo'lishni maqsad qilganmiz." }
     }
+  },
+  "sectionFour": {
+    "subtitle": "MIJOZLAR FIKRI",
+    "title": "Mijozlarimiz bizning ishdan mamnun",
+    "text": "G'oyalaringizni Finsweet bilan haqiqatga aylantiring.",
+    "quote": "Finsweet biz uchun ajoyib hamkor bo'ldi. Men so'nggi bir necha oy davomida ularning mijoziman va faqat ijobiy tajribaga ega bo'ldim!",
+    "name": "Jon Doe",
+    "role": "Kompaniya rahbari"
   }
 }

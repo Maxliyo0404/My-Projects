@@ -1,0 +1,45 @@
+.sectionFour-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+  gap: 60px;
+}
+
+.four-left { max-width: 400px; }
+.four-title { font-size: 48px; margin-bottom: 20px; }
+
+/* Kard uslubi */
+.testimonial-card {
+  display: flex;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Vertikal chiziq */
+.vertical-bar {
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+.v-orange { flex: 1; background-color: #F48C42; }
+.v-light-orange { flex: 1; background-color: #FFD4A2; }
+.v-blue { flex: 1; background-color: #4C6EF5; }
+
+/* Muallif qismi */
+.card-author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+.author-img { width: 50px; height: 50px; border-radius: 50%; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sectionFour-wrapper { flex-direction: column; text-align: center; }
+  .four-left { max-width: 100%; }
+}

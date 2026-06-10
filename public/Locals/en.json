@@ -58,5 +58,13 @@
       "deployment": { "title": "Deployment", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." },
       "maintenance": { "title": "Maintenance", "text": "We aim to attain the greatest satisfaction for our clients and be one of the prominent." }
     }
+  },
+  "sectionFour": {
+    "subtitle": "TESTIMONIALS",
+    "title": "Our customers love what we do",
+    "text": "Transform your idea into reality with Finsweet.",
+    "quote": "Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!",
+    "name": "John Doe",
+    "role": "CEO, Company"
   }
 }

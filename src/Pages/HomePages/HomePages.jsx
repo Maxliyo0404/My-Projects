@@ -5,6 +5,7 @@ import SectionOne from "../../Components/Main/SectionOne/SectionOne";
 import SectionTwo from "../../Components/Main/SectionTwo/SectionTwo";
 import SectionThree from "../../Components/Main/SectionThree/SectionThree";
 import SectionFive from "../../Components/Main/SectionFive/SectionFive";
+import SectionFour from "../../Components/Main/SectionFour/SectionFour";
 
 function HomePages() {
   return (
@@ -14,6 +15,7 @@ function HomePages() {
         <SectionTwo/>
         <SectionThree/>
         <SectionFive/>
+        <SectionFour/>
     </div>
   )
 }
