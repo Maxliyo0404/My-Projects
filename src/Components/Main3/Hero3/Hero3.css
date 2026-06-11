@@ -1,0 +1,110 @@
+/* Hero3 umumiy sozlamalari */
+.hero3-info {
+  padding: 60px 0;
+  position: relative;
+  background-color: #ffffff;
+}
+.hero3-cubes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.hero3-cub{
+    width: 28px;
+    height: 28px;
+  background: #FFD3AF;
+}
+
+.cube-wrapper {
+  display: grid;
+  grid-template-columns: 24px 24px; /* 2 ta ustun */
+  grid-template-rows: 24px 24px;    /* 2 ta qator */
+  gap: 4px; /* Kubiklar orasidagi masofa */
+  width: 52px;
+  height: 52px;
+}
+
+.box { border-radius: 4px; }
+
+/* 1. Kichik ko'k (Chap tepa) */
+.blue-top { background: #4C6EF5; }
+
+/* 2. Katta to'q sariq (O'ng tepa) */
+.orange-main { background: #F48C42; }
+
+/* 3. Kichik to'q sariq (Chap past) */
+.orange-small { background: #F48C42; }
+
+/* 4. Och sariq (O'ng past) */
+.light-orange-small { background: #FFD4A2; }
+.hero3-content {
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+.hero3-label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #232536;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.hero3-title {
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  margin-bottom: 24px;
+}
+.hero3-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+/* Uch rangli chiziq (Ranglar ketma-ketligi) */
+.color-line {
+  display: flex;
+  width: 240px;
+  height: 8px;
+  margin-bottom: 40px;
+}
+.line-part { flex: 1; }
+.orange { background-color: #F48C42; }
+.light-orange { background-color: #FFD4A2; }
+.blue { background-color: #4C6EF5; }
+
+/* Rasmlar panjarasi */
+.hero3-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.img-box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+.img-box img:hover {
+  transform: scale(1.02); /* Effekt uchun */
+}
+
+/* --- RESPONSIVE (MOBIL VA TABLET) --- */
+
+/* Planshetlar uchun */
+@media (max-width: 992px) {
+  .hero3-title { font-size: 36px; line-height: 44px; }
+  .hero3-images { gap: 10px; }
+  .img-box img { height: 250px; }
+}
+
+/* Telefonlar uchun */
+@media (max-width: 768px) {
+  .hero3 { padding: 40px 0; }
+  .hero3-title { font-size: 28px; line-height: 36px; }
+  .hero3-images { grid-template-columns: 1fr; }
+  .corner-cubes { right: 20px; top: 20px; }
+  .color-line { width: 100%; }
+}
