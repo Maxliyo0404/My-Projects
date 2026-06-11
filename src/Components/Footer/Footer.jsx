@@ -41,7 +41,7 @@ function Footer() {
                 <a className='footer-link' href="#">{t("footer.footer-Development")}</a>
                 <a className='footer-link' href="#">{t("footer.footer-AWS/Azure ")}</a>
                 <a className='footer-link' href="#">{t("footer.footer-Consulting")}</a>
-                <a className='footer-link' href="#">{t("footer.footer-Information Technology")}</a>
+    
               </li>
               <li className='footer-item'>
                 <a className='footer-link1' href="#">{t("footer.footer-Resourses")}</a>
@@ -61,9 +61,12 @@ function Footer() {
             </div>
           </div>
         </div>
+        </div>
+        </div>
 
       <div className="footer-bottom">
-        <div className="container bottom-wrapper">
+        <div className="container ">
+          <div className="bottom-wrapper">
           <div className="copyright">
             <img src={footer_1} alt="rasm" />
             <a className='footer-brend' href="#">{t("footer.footer-brand")}</a>
@@ -78,7 +81,7 @@ function Footer() {
         </div>
       </div>
       </div>
-      </div>
+     
     </footer>
   );
 }
