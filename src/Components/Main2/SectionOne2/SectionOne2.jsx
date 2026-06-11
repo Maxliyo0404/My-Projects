@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
-import "./SectionOne.css";
+import "./SectionOne2.css";
 import React from 'react'
 
-function SectionOne() {
+function SectionOne2() {
     const [t, i18n] = useTranslation();
   return (
     <div c></div>
   )
 }
 
-export default SectionOne
+export default SectionOne2
