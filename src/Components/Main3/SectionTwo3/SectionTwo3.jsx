@@ -1,6 +1,11 @@
 import { useTranslation } from "react-i18next";
 import "./SectionTwo3.css";
 import React from 'react'
+import vector1 from "./image/vector1.png";
+import vector2 from "./image/vector2.png";
+import vector3 from "./image/vector3.png";
+import vector4 from "./image/vector4.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 function SectionTwo3() {
     const [t, i18n] = useTranslation();
@@ -56,6 +61,28 @@ function SectionTwo3() {
                </ul>
                     </div>
                 </div>
+                 <ul className="two3List-list">
+                                    <li className="two33-item">
+                                        <img src={vector1} alt="rasm" />
+                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                    </li>
+                                    <li className="two33-item">
+                                        <img src={vector2} alt="rasm" />
+                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                    </li>
+                                    <li className="two33-item">
+                                        <img src={vector3} alt="rasm" />
+                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                    </li>
+                                    <li className="two33-item">
+                                        <img src={vector2} alt="rasm" />
+                                         <p className="heroList-text">{t("sectionTwo33.two33List-text1")}</p>
+                                    </li>
+                                    <li className="two33-item">
+                                        <img src={vector4} alt="rasm" />
+                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                    </li>
+                                </ul>
             </div>
         </div>
     </div>
