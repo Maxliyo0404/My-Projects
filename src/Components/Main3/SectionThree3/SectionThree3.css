@@ -1,3 +1,70 @@
 .sectionThree-wrapper{
     padding: 60px 0;
 }
+.three3-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #232536;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.three3-title {
+  max-width: 664px;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  margin-bottom: 24px;
+}
+.three3-text {
+  max-width: 719px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+.three3-rasm{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 992px) {
+  .three3-title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+/* Telefon versiyasi (768px gacha) */
+@media (max-width: 768px) {
+  .sectionThree-wrapper {
+    padding: 40px 15px;
+  }
+  
+  .three3-title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  
+  .three3-text {
+    font-size: 14px;
+    margin-bottom: 30px; /* Mobil ekran uchun bo'shliqni qisqartirdik */
+  }
+}
+
+/* Juda kichik telefonlar (480px gacha) */
+@media (max-width: 480px) {
+  .three3-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* Rasm uchun umumiy sozlama */
+.three3-rasm {
+  width: 100%;
+  height: auto;
+  display: block; /* Rasm ostidagi keraksiz bo'shliqni yo'qotadi */
+  border-radius: 8px; /* Ixtiyoriy: dizaynni zamonaviy qiladi */
+}

@@ -11,7 +11,7 @@ function SectionThree3() {
                         <h6 className="three3-label">{t("sectionThree3.three3-label")}</h6>
                         <h2 className="three3-title">{t("sectionThree3.three3-title")}</h2>
                         <p className="three3-text">{t("sectionThree3.three3-text")}</p>
-                        <img src={three3_1} alt="rasm" />
+                        <img className="three3-rasm" src={three3_1} alt="rasm" />
             </div>
         </div>
     </div>
