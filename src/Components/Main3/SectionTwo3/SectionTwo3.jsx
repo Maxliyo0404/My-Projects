@@ -15,6 +15,46 @@ function SectionTwo3() {
                         <h2 className="two3-title">{t("sectionTwo3.two3-title")}</h2>
                         <p className="two3-text">{t("sectionTwo3.two3-text")}</p>
                     </div>
+                    <div className="hero-right">
+                <ul className="two3-list">
+                 <li className="two3-item">
+                    <h2 className="two3Listitle">1560+</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="two3List-text">{t("sectionTwo3.two3List-text1")}</p>
+                 </li>
+                 <li className="two3-item">
+                    <h2  className="two3Listitle">100+</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="two3List-text">{t("sectionTwo3.two3List-text2")}</p>
+                 </li>
+                 <li className="two3-item">
+                    <h2  className="two3Listitle">950+</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="two3List-text">{t("sectionTwo3.two3List-text3")}</p>
+                 </li>
+                 <li className="two3-item">
+                    <h2  className="two3Listitle">10 yrs</h2>
+                  <div className="progress-bar">
+                    <div className="blue"></div>
+                    <div className="orange"></div>
+                    <div className="light-orange"></div>
+                  </div>
+                   <p className="two3List-text">{t("sectionTwo3.two3List-text4")}</p>
+                 </li>
+               </ul>
+                    </div>
                 </div>
             </div>
         </div>
