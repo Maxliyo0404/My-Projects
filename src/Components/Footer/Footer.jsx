@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import "./Footer.css";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 function Footer() {
   const { t, i18n } = useTranslation();
@@ -51,8 +52,11 @@ function Footer() {
               </li>
             </ul>
             <div className="footer-listee">
-                <div className="footer-lis"></div>
-                <a className='footer-linke' href="#">{t("footer.footer-linke")}<span className='footer-span'></span></a>
+                <div className="footer-lis">
+                  <div className="footer-yellow"></div>
+                  <div className="footer-blue"></div>
+                </div>
+                <a className='footer-linke' href="#">{t("footer.footer-linke")}<span className='footer-span'><FaLongArrowAltRight /></span></a>
             </div>
           </div>
         </div>
