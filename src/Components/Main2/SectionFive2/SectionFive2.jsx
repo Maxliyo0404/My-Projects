@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionFive2.css";
 import React from 'react'
-
+import five2_1 from "./image/five2_1.png"
 function SectionFive2() {
     const [t, i18n] = useTranslation();
   return (
@@ -9,7 +9,7 @@ function SectionFive2() {
                 <div className="container">
                   <div className="sectionFive2-wrapper">
                       <div className="five2-left">
-                      <img className="five2-rasm" src={three2_1} alt="rasm" />
+                      <img className="five2-rasm" src={five2_1} alt="rasm" />
                     </div>
                     <div className="five2-right">
                         <h4 className="five2-title">{t("sectionFive2.five2-title")}</h4>
