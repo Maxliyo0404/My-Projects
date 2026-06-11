@@ -106,5 +106,18 @@
     "footer-linke": "Connect us",
     "brand-name": "Finsweet",
     "footer-brand": "©2026 Finsweet"
+  },
+
+
+  "hero2" :{
+   "hero2-title" :"Our Services",
+   "hero2-titlee" :"We Build Software Solutionthat Solve Clients Business Challenges",
+   "hero2-text" :"Through True Rich Attended does no end it his mother since favourable real had half every him case in packages enquire we up ecstatic.",
+   "hero2-btn" :"Request A Quote",
+   "hero2-title1" :"Technical support",
+   "hero2-title2" :"Development",
+   "hero2-title3" :"AWS/Azure ",
+   "hero2-title4" :"Consulting",
+   "hero2-title5" :"Information Technology"
   }
 }

@@ -105,5 +105,19 @@
     "footer-linke": "Bog'lanish",
     "brand-name": "Finsweet",
     "footer-brand": "©2026 Finsweet"
-  }
+  },
+  
+
+  "hero2": {
+      "hero2-title": "Bizning Xizmatlar",
+      "hero2-titlee": "Biz Mijozlarning Biznes Muammolarini Hal Qiluvchi Dasturiy Yechimlarni Yaratamiz",
+      "hero2-hero2-text": "Biznes jarayonlarni optimallashtirish va mijozlarimiz duch keladigan qiyinchiliklarni bartaraf etish uchun samarali dasturiy ta'minot yechimlarini taqdim etamiz.",
+      "hero2-btn": "Taklifni so'rash",
+      "hero2-title1": "Texnik qo'llab-quvvatlash",
+      "hero2-title2": "Dasturlash (Development)",
+      "hero2-title3": "AWS/Azure bulutli xizmatlari",
+      "hero2-title4": "Konsalting",
+      "hero2-title5": "Axborot texnologiyalari"
+    }
+ 
 }
