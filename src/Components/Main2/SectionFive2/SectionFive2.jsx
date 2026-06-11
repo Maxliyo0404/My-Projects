@@ -13,7 +13,7 @@ function SectionFive2() {
                     </div>
                     <div className="five2-right">
                         <h4 className="five2-title">{t("sectionFive2.five2-title")}</h4>
-                        <h2 className="five2-title">{t("sectionFive2.five2-titlee")}</h2>
+                        <h2 className="five2-titlee">{t("sectionFive2.five2-titlee")}</h2>
                         <p className="five2-text">{t("sectionFive2.five2-text")}</p>
                     </div>
                    

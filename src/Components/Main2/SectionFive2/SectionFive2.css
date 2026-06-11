@@ -1,7 +1,7 @@
 .sectionFive2{
     background: #F9F9FF;
 }
-.sectionFive-wrapper{
+.sectionFive2-wrapper{
     padding: 60px 0;
     display: flex;
     align-items: center;
@@ -16,7 +16,6 @@
     line-height:36px ;
     color:#000000;
     margin-bottom: 16px;
-    
 }
 .five2-titlee{
     max-width: 100%; 
