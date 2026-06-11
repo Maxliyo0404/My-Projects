@@ -115,32 +115,28 @@
   justify-content: flex-end;
    text-align: end; 
 }
-
-/* Chiziqlar konteyneri */
 .footer-lis {
-  display: flex;       /* Chiziqlarni yonma-yon qilish uchun */
+  display: flex;    
   flex-direction: row; 
-  height: 14px;        /* Figmadagi balandlik */
-  width: 50px;         /* Figmadagi kenglik */
+  height: 14px;        
+  width: 50px;   
 }
 
 .footer-yellow {
-  width: 14px;         /* Zarg'aldoq qismning kengligi */
+  width: 14px;       
   background: #FFA155;
 }
 
 .footer-blue {
-  flex: 1;             /* Qolgan bo'sh joyni ko'k rang egallaydi */
+  flex: 1;             
   background: #2c52ea;
 }
-
-/* Link stili */
 .footer-linke {
   display: flex;
   align-items: center;
-  gap: 8px;            /* Matn va strelka orasidagi masofa */
+  gap: 8px;           
   text-decoration: none;
-  color: #000;         /* Matn rangi */
+  color: #000;        
   font-weight: 500;
 }
 
