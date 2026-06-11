@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import "./Footer.css";
+import footer_1 from "./image/footer_1.svg";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 function Footer() {
@@ -64,10 +65,15 @@ function Footer() {
       <div className="footer-bottom">
         <div className="container bottom-wrapper">
           <div className="copyright">
-            <span className="brand-name">{t("footer.brand-name")}</span> {t("footer.footer-brand")}
+            <img src={footer_1} alt="rasm" />
+            <a className='footer-brend' href="#">{t("footer.footer-brand")}</a>
+           
           </div>
           <div className="social-icons">
-            <FaFacebook /> <FaTwitter /> <FaInstagram /> <FaLinkedin />
+            <div className="social-icon"><FaFacebook /></div>
+            <div className="social-icon"><FaTwitter /></div>
+            <div className="social-icon"> <FaInstagram /></div>
+            <div className="social-icon"> <FaLinkedin /></div>  
           </div>
         </div>
       </div>
