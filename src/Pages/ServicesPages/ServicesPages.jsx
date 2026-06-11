@@ -7,6 +7,7 @@ import SectionThree2 from "../../Components/Main2/SectionThree2/SectionThree2";
 import SectionFour2 from "../../Components/Main2/SectionFour2/SectionFour2";
 import SectionFive2 from "../../Components/Main2/SectionFive2/SectionFive2";
 import SectionSix2 from "../../Components/Main2/SectionSix2/SectionSix2";
+import SectionSeven from "../../Components/Main/SectionSeven/SectionSeven";
 
 
 
@@ -20,6 +21,7 @@ function ServicesPages() {
      <SectionFour2/>
      <SectionFive2/>
      <SectionSix2/>
+     <SectionSeven/>
     </div>
   )
 }
