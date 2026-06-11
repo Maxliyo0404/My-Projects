@@ -20,7 +20,7 @@ function SectionTwo3() {
                         <h2 className="two3-title">{t("sectionTwo3.two3-title")}</h2>
                         <p className="two3-text">{t("sectionTwo3.two3-text")}</p>
                     </div>
-                    <div className="hero-right">
+                    <div className="two3-right">
                 <ul className="two3-list">
                  <li className="two3-item">
                     <h2 className="two3Listitle">1560+</h2>
@@ -64,23 +64,23 @@ function SectionTwo3() {
                  <ul className="two3List-list">
                                     <li className="two33-item">
                                         <img src={vector1} alt="rasm" />
-                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                         <p className="two33List-text">{t("sectionTwo3.two33List-text1")}</p>
                                     </li>
                                     <li className="two33-item">
                                         <img src={vector2} alt="rasm" />
-                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                         <p className="two33List-text">{t("sectionTwo3.two33List-text1")}</p>
                                     </li>
                                     <li className="two33-item">
                                         <img src={vector3} alt="rasm" />
-                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                         <p className="two33List-text">{t("sectionTwo3.two33List-text1")}</p>
                                     </li>
                                     <li className="two33-item">
                                         <img src={vector2} alt="rasm" />
-                                         <p className="heroList-text">{t("sectionTwo33.two33List-text1")}</p>
+                                         <p className="two33List-text">{t("sectionTwo3.two33List-text1")}</p>
                                     </li>
                                     <li className="two33-item">
                                         <img src={vector4} alt="rasm" />
-                                         <p className="two33List-text">{t("sectionTwo33.two33List-text1")}</p>
+                                         <p className="two33List-text">{t("sectionTwo3.two33List-text1")}</p>
                                     </li>
                                 </ul>
             </div>
