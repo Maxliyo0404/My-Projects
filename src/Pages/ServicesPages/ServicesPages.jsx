@@ -1,14 +1,17 @@
 import "./ServicesPages.css";
 import React from 'react'
 import Hero2 from "../../Components/Main2/Hero2/Hero2";
-import SectionOne2 from "../../Components/Main2/SectionOne2/SectionOne2";
+import SectionFive from "../../Components/Main/SectionFive/SectionFive";
+import SectionTwo2 from "../../Components/Main2/SectionTwo2/SectionTwo2";
+
 
 
 function ServicesPages() {
   return (
     <div>
-     <SectionOne2/>
      <Hero2/>
+     <SectionFive/>
+     <SectionTwo2/>
     </div>
   )
 }
