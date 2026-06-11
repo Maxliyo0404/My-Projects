@@ -118,22 +118,19 @@
   }
 
   .hero3-images {
-    grid-template-columns: 1fr; /* 1 ta ustun (ustma-ust) */
+    grid-template-columns: 1fr; 
     gap: 15px;
   }
 
   .img-box img {
-    height: 280px; /* Mobil ekran uchun rasm balandligi */
+    height: 280px; 
   }
 
   .color-line {
-    margin-left: auto;
-    margin-right: auto; 
-    max-width: 200px;   /* Telefonda chiziqni biroz qisqartiramiz */
+   height: 11px;
+    max-width: 200px;   
   }
 }
-
-/* 4. Juda kichik telefonlar (480px gacha) */
 @media (max-width: 480px) {
   .hero3-title {
     font-size: 24px;
@@ -141,7 +138,7 @@
   }
   
   .cube-wrapper {
-    width: 40px; /* Kichikroq ekran uchun kublar ham kichrayadi */
+    width: 40px; 
     height: 40px;
   }
 }
