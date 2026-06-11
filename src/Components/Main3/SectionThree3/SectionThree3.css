@@ -34,8 +34,6 @@
     line-height: 48px;
   }
 }
-
-/* Telefon versiyasi (768px gacha) */
 @media (max-width: 768px) {
   .sectionThree-wrapper {
     padding: 40px 15px;
@@ -49,11 +47,10 @@
   
   .three3-text {
     font-size: 14px;
-    margin-bottom: 30px; /* Mobil ekran uchun bo'shliqni qisqartirdik */
+    margin-bottom: 30px; /
   }
 }
 
-/* Juda kichik telefonlar (480px gacha) */
 @media (max-width: 480px) {
   .three3-title {
     font-size: 24px;
@@ -61,10 +58,9 @@
   }
 }
 
-/* Rasm uchun umumiy sozlama */
 .three3-rasm {
   width: 100%;
   height: auto;
-  display: block; /* Rasm ostidagi keraksiz bo'shliqni yo'qotadi */
-  border-radius: 8px; /* Ixtiyoriy: dizaynni zamonaviy qiladi */
+  display: block; 
+ 
 }
