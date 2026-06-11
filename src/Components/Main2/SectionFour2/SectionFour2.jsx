@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionFour2.css";
 import React from 'react'
+import four2_1 from "./image/four2_1.png";
 
 function SectionFour2() {
     const [t, i18n] = useTranslation();
@@ -14,7 +15,7 @@ function SectionFour2() {
                    <p className="four2-text">{t("sectionFour2.four2-text")}</p>
                </div>
                <div className="four2-right">
-                 <img className="four2-rasm" src={} alt="rasm" />
+                 <img className="four2-rasm" src={four2_1} alt="rasm" />
                </div>
              </div>
            </div>
