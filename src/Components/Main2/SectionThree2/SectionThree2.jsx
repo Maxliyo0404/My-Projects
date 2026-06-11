@@ -10,7 +10,7 @@ function SectionThree2() {
            <div className="container">
              <div className="sectionThree2-wrapper">
                  <div className="three2-left">
-                 <img className="two2-rasm" src={three2_1} alt="rasm" />
+                 <img className="three2-rasm" src={three2_1} alt="rasm" />
                </div>
                <div className="three2-right">
                    <h4 className="three2-title">{t("sectionThree2.three2-title")}</h4>
