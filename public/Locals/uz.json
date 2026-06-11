@@ -128,6 +128,12 @@
       "three2-title": "Dasturlash",
       "three2-titlee": "G'oyalaringizni sertifikatlangan dasturchilar jamoasi va eng so'nggi texnologiyalar yordamida hayotga tatbiq eting",
       "three2-text": "Bizning mutaxassislar jamoasi sizning g'oyalaringizni amalga oshirishda yordam beradi. Zamonaviy texnologiyalardan foydalangan holda, biz biznesingiz uchun yuqori sifatli va samarali dasturiy yechimlarni taqdim etamiz. Har bir loyihaga individual yondashuv va professional darajadagi xizmat kafolatlanadi."
+    },
+    "sectionFour2": {
+      "four2-title": "AWS/Azure",
+      "four2-titlee": "Ilovalaringizni yetakchi veb-xizmatlarda joylashtirish, boshqarish va xavfsizligini ta'minlashga yordam beramiz",
+      "four2-text": "Biz bulutli infratuzilmani optimallashtirish va ilovalaringizni xavfsiz muhitda saqlash bo'yicha keng qamrovli yechimlarni taklif etamiz. Bizning jamoamiz AWS va Azure platformalaridagi eng ilg'or usullardan foydalangan holda, loyihalaringizning barqaror va uzluksiz ishlashini kafolatlaydi."
     }
+    
  
 }

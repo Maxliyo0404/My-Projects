@@ -1,0 +1,104 @@
+.sectionFour2-wrapper{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.four2-left{
+    max-width: 50%;
+}
+.four2-title{
+    font-weight:600 ;
+    font-size:24px;
+    line-height:36px ;
+    color:#000000;
+    margin-bottom: 16px;
+    
+}
+.four2-titlee{
+    max-width: 100%; 
+    font-weight:600 ;
+    font-size:36px;
+    line-height:54px ;
+    color: #232536;
+    margin-bottom: 24px;
+    
+}
+.four2-text{
+    max-width: 100%; 
+    font-weight:400 ;
+    font-size:16px;
+    line-height:24px ;
+    color: #232536;
+    opacity: 60%;
+}
+.four2-right{
+    max-width: 50%;
+}
+.four2-rasm{
+    max-width: 100%;
+}
+@media (max-width: 992px) {
+  .sectionFour2-wrapper {
+    gap: 30px; 
+  }
+  .four2-titlee {
+    font-size: 30px; 
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionFour2-wrapper {
+    flex-direction: column-reverse; 
+    text-align: center;      
+    padding: 40px 0;      
+  }
+
+  .four2-left, 
+  .four2-right {
+    max-width: 100%;        
+  }
+
+  .four2-titlee {
+    font-size: 26px;        
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .four2-text {
+    margin-bottom: 30px;   
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionFour2-wrapper {
+    padding: 30px 0 ;          
+  }
+  .four2-left{
+    padding-top: -30px;
+  }
+  .four2-title {
+    font-size: 16px;   
+    margin-bottom: 4px;
+  }
+
+  .four2-titlee {
+    max-width: 100%;
+    font-size: 26px;   
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+
+  .four2-text {
+    max-width: 100%;
+    font-size: 13px;    
+    line-height: 18px;
+    margin-bottom: 16px;
+  }
+
+  .four2-right {
+    max-width: 90%;    
+    margin: 0 auto;    
+  }
+}
