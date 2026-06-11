@@ -10,9 +10,9 @@ function SectionTwo2() {
       <div className="container">
         <div className="sectionTwo2-wrapper">
           <div className="two2-left">
-              <h4 className="sectionTwo2-title">{t("sectionTwo2.two2-title")}</h4>
-              <h2 className="sectionTwo2-titlee">{t("sectionTwo2.two2-titlee")}</h2>
-              <p className="sectionTwo2-text">{t("sectionTwo2.two2-text")}</p>
+              <h4 className="two2-title">{t("sectionTwo2.two2-title")}</h4>
+              <h2 className="two2-titlee">{t("sectionTwo2.two2-titlee")}</h2>
+              <p className="two2-text">{t("sectionTwo2.two2-text")}</p>
           </div>
           <div className="two2-right">
             <img src={two2_1} alt="rasm" />
