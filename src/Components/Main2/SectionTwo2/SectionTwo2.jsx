@@ -15,7 +15,7 @@ function SectionTwo2() {
               <p className="two2-text">{t("sectionTwo2.two2-text")}</p>
           </div>
           <div className="two2-right">
-            <img src={two2_1} alt="rasm" />
+            <img className="two2-rasm" src={two2_1} alt="rasm" />
           </div>
         </div>
       </div>

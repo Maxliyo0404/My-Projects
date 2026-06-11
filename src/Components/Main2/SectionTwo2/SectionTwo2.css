@@ -35,3 +35,40 @@
 .two2-right{
     max-width: 50%;
 }
+.two2-rasm{
+    max-width: 100%;
+}
+/* 1. Planshetlar uchun (992px gacha) */
+@media (max-width: 992px) {
+  .sectionTwo2-wrapper {
+    gap: 30px; /* Elementlar orasiga biroz joy qo'shamiz */
+  }
+
+  .two2-titlee {
+    font-size: 30px; /* Sarlavhani biroz kichraytiramiz */
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionTwo2-wrapper {
+    flex-direction: column-reverse; /* Elementlarni vertikal joylashtiramiz */
+    text-align: center;      /* Matnni markazga tekislaymiz */
+    padding: 40px 20px;      /* Yonlardan joy (padding) qo'shamiz */
+  }
+
+  .two2-left, 
+  .two2-right {
+    max-width: 100%;         /* Kenglikni 100% ga chiqaramiz */
+  }
+
+  .two2-titlee {
+    font-size: 26px;         /* Telefon uchun mos o'lcham */
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .two2-text {
+    margin-bottom: 30px;     /* Rasm bilan matn orasini ochamiz */
+  }
+}
