@@ -14,11 +14,11 @@ function Hero3() {
                 <div className="hero3-cubes">
                     <div className="hero3-cub"></div>
               <div className="cube-wrapper">
-  <div className="box blue-top"></div>
-  <div className="box orange-main"></div>
-  <div className="box orange-small"></div>
-  <div className="box light-orange-small"></div>
-</div>
+                  <div className="box blue-top"></div>
+                  <div className="box orange-main"></div>
+                  <div className="box orange-small"></div>
+                  <div className="box light-orange-small"></div>
+                 </div>
                </div>
           <div className="hero3-content">
               <h6 className="hero3-label">{t("hero3.hero3-label")}</h6>
