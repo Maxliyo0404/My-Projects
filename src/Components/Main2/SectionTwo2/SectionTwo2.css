@@ -38,37 +38,67 @@
 .two2-rasm{
     max-width: 100%;
 }
-/* 1. Planshetlar uchun (992px gacha) */
 @media (max-width: 992px) {
   .sectionTwo2-wrapper {
-    gap: 30px; /* Elementlar orasiga biroz joy qo'shamiz */
+    gap: 30px; /
   }
-
   .two2-titlee {
-    font-size: 30px; /* Sarlavhani biroz kichraytiramiz */
+    font-size: 30px; 
     line-height: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .sectionTwo2-wrapper {
-    flex-direction: column-reverse; /* Elementlarni vertikal joylashtiramiz */
-    text-align: center;      /* Matnni markazga tekislaymiz */
-    padding: 40px 20px;      /* Yonlardan joy (padding) qo'shamiz */
+    flex-direction: column-reverse; 
+    text-align: center;      
+    padding: 40px 0;      
   }
 
   .two2-left, 
   .two2-right {
-    max-width: 100%;         /* Kenglikni 100% ga chiqaramiz */
+    max-width: 100%;        
   }
 
   .two2-titlee {
-    font-size: 26px;         /* Telefon uchun mos o'lcham */
+    font-size: 26px;        
     line-height: 34px;
     margin-bottom: 20px;
   }
   
   .two2-text {
-    margin-bottom: 30px;     /* Rasm bilan matn orasini ochamiz */
+    margin-bottom: 30px;   
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionTwo2-wrapper {
+    padding: 30px 0 ;          
+  }
+  .two2-left{
+    padding-top: -30px;
+  }
+  .two2-title {
+    font-size: 16px;   
+    margin-bottom: 4px;
+  }
+
+  .two2-titlee {
+    max-width: 100%;
+    font-size: 26px;   
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+
+  .two2-text {
+    max-width: 100%;
+    font-size: 13px;    
+    line-height: 18px;
+    margin-bottom: 16px;
+  }
+
+  .two2-right {
+    max-width: 90%;    
+    margin: 0 auto;    
   }
 }
