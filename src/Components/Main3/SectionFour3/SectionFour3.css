@@ -24,6 +24,7 @@
   line-height: 24px;
   margin-bottom: 64px;
 }
+
 .four3List-title {
   max-width: 624px;
   font-weight: 600;
@@ -39,6 +40,15 @@
   color: #FFFFFF;
   line-height: 20px;
   margin-bottom: 24px;
+  opacity: 70%;
+}
+.four3-icons{
+    max-width: 101px;
+    margin: 0 auto;
+   display: flex;
+   text-align: center;
+   gap: 20px;
+    color: #FFFFFF;
 }
 .four3-item{
     max-width: 100%;
@@ -55,7 +65,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Matnlarni pastga tushirish uchun */
+    justify-content: center;
+    text-align: center;
    
 }
 
@@ -71,6 +82,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(8px) brightness(0.6); /* blur = xiralik, brightness = qorong'ulik */
+    filter: blur(2px) brightness(0.3); /* blur = xiralik, brightness = qorong'ulik */
     z-index: -1;
 }

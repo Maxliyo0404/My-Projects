@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./SectionFour3.css";
+import {  FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import React from 'react'
 import four3_1 from "./image/four3_1.png";
 import four3_2 from "./image/four3_2.png";
@@ -29,6 +30,11 @@ function SectionFour3() {
                             <div className="four3List-titles">
                                 <h2 className="four3List-title">{t("sectionFour3.four3List-title")}</h2>
                                 <p className="four3List-text">{t("sectionFour3.four3List-text")}</p>
+                                 <div className="four3-icons">
+                                            <div className="social-icon"><FaTwitter /></div>
+                                            <div className="social-icon"> <FaInstagram /></div>
+                                            <div className="social-icon"> <FaLinkedin /></div>  
+                                          </div>
                             </div>
                         </div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_6} alt="rasm" /></div>
