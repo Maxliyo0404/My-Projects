@@ -2,6 +2,13 @@ import { useTranslation } from "react-i18next";
 import "./SectionFour3.css";
 import React from 'react'
 import four3_1 from "./image/four3_1.png";
+import four3_2 from "./image/four3_1.png";
+import four3_3 from "./image/four3_1.png";
+import four3_4 from "./image/four3_1.png";
+import four3_5 from "./image/four3_1.png";
+import four3_6 from "./image/four3_1.png";
+import four3_7 from "./image/four3_1.png";
+import four3_8 from "./image/four3_1.png";
 
 function SectionFour3() {
     const [t, i18n] = useTranslation();
