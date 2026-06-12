@@ -25,7 +25,13 @@ function SectionFour3() {
                         <div className="four3-img"><img className="four3-rasm" src={four3_2} alt="rasm" /></div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_3} alt="rasm" /></div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_4} alt="rasm" /></div>
-                        <div className="four3-img"><img className="four3-rasm" src={four3_5} alt="rasm" /></div>
+                        <div className="four3-img">
+                            <img className="four3-rasm" src={four3_5} alt="rasm" />
+                            <div className="four3List-titles">
+                                <h2 className="four3-title">{t("sectionFour3.four3-title")}</h2>
+                                <p className="four3-text">{t("sectionFour3.four3-text")}</p>
+                            </div>
+                        </div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_6} alt="rasm" /></div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_7} alt="rasm" /></div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_8} alt="rasm" /></div>
