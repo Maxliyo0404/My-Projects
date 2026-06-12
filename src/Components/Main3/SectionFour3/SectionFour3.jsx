@@ -24,9 +24,9 @@ function SectionFour3() {
                         <div className="four3-img"><img src={four3_1} alt="rasm" /></div>
                         <div className="four3-img"><img src={four3_2} alt="rasm" /></div>
                         <div className="four3-img"><img src={four3_3} alt="rasm" /></div>
-                        <div className="four3-img"><img src={} alt="rasm" /></div>
-                        <div className="four3-img"><img src={} alt="rasm" /></div>
-                        <div className="four3-img"><img src={} alt="rasm" /></div>
+                        <div className="four3-img"><img src={four3_4} alt="rasm" /></div>
+                        <div className="four3-img"><img src={four3_5} alt="rasm" /></div>
+                        <div className="four3-img"><img src={four3_6} alt="rasm" /></div>
                         <div className="four3-img"><img src={} alt="rasm" /></div>
                         <div className="four3-img"><img src={} alt="rasm" /></div>
                         
