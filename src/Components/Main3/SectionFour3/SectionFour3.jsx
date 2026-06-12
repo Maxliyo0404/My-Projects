@@ -6,7 +6,11 @@ function SectionFour3() {
     const [t, i18n] = useTranslation();
   return (
     <div className="sectionFour3">
-        <div className="container"></div>
+        <div className="container">
+            <div className="sectionFour3-wrapper">
+                
+            </div>
+        </div>
     </div>
   )
 }
