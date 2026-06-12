@@ -59,6 +59,9 @@
 
 .four3-rasm{
     max-width: 100%;
+    &:hover{
+        transform: scale(0.9);
+    }
 }
 .four3-imge{
     max-width: 100%;
@@ -67,9 +70,11 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+     &:hover{
+        transform: scale(0.9);
+    }
    
 }
-
 
 .four3-imge::before {
     content: "";
