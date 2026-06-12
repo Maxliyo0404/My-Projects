@@ -21,14 +21,14 @@ function SectionFour3() {
                 <p className="four3-text">{t("sectionFour3.four3-text")}</p>
                 <ul className="four3-list">
                     <li className="four3-item">
-                        <div className="four3-img"><img src={four3_1} alt="rasm" /></div>
-                        <div className="four3-img"><img src={four3_2} alt="rasm" /></div>
-                        <div className="four3-img"><img src={four3_3} alt="rasm" /></div>
-                        <div className="four3-img"><img src={four3_4} alt="rasm" /></div>
-                        <div className="four3-img"><img src={four3_5} alt="rasm" /></div>
-                        <div className="four3-img"><img src={four3_6} alt="rasm" /></div>
-                        <div className="four3-img"><img src={} alt="rasm" /></div>
-                        <div className="four3-img"><img src={} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_1} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_2} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_3} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_4} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_5} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_6} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_7} alt="rasm" /></div>
+                        <div className="four3-img"><img className="four3-rasm" src={four3_8} alt="rasm" /></div>
                         
                     </li>
                 </ul>
