@@ -65,6 +65,7 @@
 }
 .four3-imge{
     max-width: 100%;
+    height: auto;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -87,12 +88,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(2px) brightness(0.3); /* blur = xiralik, brightness = qorong'ulik */
+    filter: blur(2px) brightness(0.3); 
     z-index: -1;
 }
 @media (max-width: 768px) {
     .four3-item {
-        grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
     .four3-title {
@@ -102,12 +103,8 @@
         padding: 40px 0;
     }
 }
-
-/* 3. Telefonlar uchun (480px dan kichik) */
 @media (max-width: 480px) {
-    .four3-item {
-        grid-template-columns: 1fr; /* 1 ta ustun (hammasi pastga tushadi) */
-    }
+  
     .four3-title {
         font-size: 28px;
         line-height: 36px;
@@ -115,12 +112,16 @@
     .four3-text {
         margin-bottom: 30px;
     }
-    .four3-imge {
-        height: 300px; /* Telefon ekranida balandlikni kamaytiramiz */
+    .four3List-title {
+        font-size: 16px;
+        line-height: 18px;
     }
+    .four3List-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
 }
-
-/* Rasm hover effekti mobil qurilmalarda muammo qilmasligi uchun */
 @media (hover: hover) {
     .four3-rasm:hover, .four3-imge:hover {
         transform: scale(0.9);
