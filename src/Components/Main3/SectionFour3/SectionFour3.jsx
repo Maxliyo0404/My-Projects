@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionFour3.css";
 import React from 'react'
+import four3_1 from "./image/four3_1.png";
 
 function SectionFour3() {
     const [t, i18n] = useTranslation();
