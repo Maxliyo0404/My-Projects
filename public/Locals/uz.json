@@ -163,7 +163,14 @@
       "three3-label": "BIZNING NIGOHIMIZ",
       "three3-title": "Globallashuv davrida dunyoning har bir burchagida o'z o'rnimizni topishni maqsad qilganmiz.",
       "three3-text": "Biz mijozlarimizga global darajadagi xizmatlarni taqdim etish va har bir hududda sifatli dasturiy yechimlarimiz bilan tan olinishni maqsad qilamiz. Bizning yondashuvimiz har bir loyihaga individual va professional munosabatni o'z ichiga oladi."
-    }
+    },
+    "sectionFour3": {
+    "four3-label": "JAMOAMIZ BILAN TANISHING",
+    "four3-title": "Jamoaviy ish — bizning yagona yo'limiz",
+    "four3-text": "Jamoaviy ish — biz faoliyat yuritadigan yagona usul. Biz hamkorlikni qadrlaymiz va umumiy maqsadlarga birgalikda erishishga intilamiz.",
+    "four3List-title": "Javena Melo",
+    "four3List-text": "Yordamchi xizmat"
+  }
     
  
 }
