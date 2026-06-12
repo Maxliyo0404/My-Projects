@@ -26,7 +26,6 @@ function SectionFour3() {
                         <div className="four3-img"><img className="four3-rasm" src={four3_3} alt="rasm" /></div>
                         <div className="four3-img"><img className="four3-rasm" src={four3_4} alt="rasm" /></div>
                         <div className="four3-img">
-                            <img className="four3-rasm" src={four3_5} alt="rasm" />
                             <div className="four3List-titles">
                                 <h2 className="four3List-title">{t("sectionFour3.four3List-title")}</h2>
                                 <p className="four3List-text">{t("sectionFour3.four3List-text")}</p>
