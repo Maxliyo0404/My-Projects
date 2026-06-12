@@ -24,6 +24,22 @@
   line-height: 24px;
   margin-bottom: 64px;
 }
+.four3List-title {
+  max-width: 624px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.four3List-text {
+  max-width: 506px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
 .four3-item{
     max-width: 100%;
     display: grid;
