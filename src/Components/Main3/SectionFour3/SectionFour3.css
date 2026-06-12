@@ -90,3 +90,40 @@
     filter: blur(2px) brightness(0.3); /* blur = xiralik, brightness = qorong'ulik */
     z-index: -1;
 }
+@media (max-width: 768px) {
+    .four3-item {
+        grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+        gap: 15px;
+    }
+    .four3-title {
+        font-size: 32px;
+    }
+    .sectionFour3-wrapper {
+        padding: 40px 0;
+    }
+}
+
+/* 3. Telefonlar uchun (480px dan kichik) */
+@media (max-width: 480px) {
+    .four3-item {
+        grid-template-columns: 1fr; /* 1 ta ustun (hammasi pastga tushadi) */
+    }
+    .four3-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .four3-text {
+        margin-bottom: 30px;
+    }
+    .four3-imge {
+        height: 300px; /* Telefon ekranida balandlikni kamaytiramiz */
+    }
+}
+
+/* Rasm hover effekti mobil qurilmalarda muammo qilmasligi uchun */
+@media (hover: hover) {
+    .four3-rasm:hover, .four3-imge:hover {
+        transform: scale(0.9);
+        transition: transform 0.3s ease;
+    }
+}
