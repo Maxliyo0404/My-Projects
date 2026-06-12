@@ -12,6 +12,7 @@ function CompanyPages() {
        <SectionTwo3/>
        <SectionTwo/>
        <SectionThree3/>
+       <SectionFour3/>
     </>
   )
 }
