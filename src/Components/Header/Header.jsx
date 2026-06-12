@@ -24,10 +24,10 @@ function Header() {
                     <li><Link className="header-link" to="home">{t("header.home")}</Link></li>
                     <li><Link className="header-link" to="services">{t("header.services")}</Link></li>
                     <li><Link className="header-link" to="company">{t("header.company")}</Link></li>
-                    <li><Link className="header-link" to="career">{t("header.career")}</Link></li>
-                    <li><Link className="header-link" to="blog">{t("header.blog")}</Link></li>
-                    <li><Link className="header-link" to="contact us">{t("header.contact us")}</Link></li>
-                    <li><Link className="header-clone" to=" clone project">{t("header.clone project")} <span className="span-clone"><FaLongArrowAltRight /></span></Link></li>
+                    <li><Link className="header-link" to="career" onClick={(e)=> e.preventDefault()}>{t("header.career")}</Link></li>
+                    <li><Link className="header-link" to="blog"  onClick={(e)=> e.preventDefault()}>{t("header.blog")}</Link></li>
+                    <li><Link className="header-link" to="contact us"  onClick={(e)=> e.preventDefault()}>{t("header.contact us")}</Link></li>
+                    <li><Link className="header-clone" to=" clone project"  onClick={(e)=> e.preventDefault()}>{t("header.clone project")} <span className="span-clone"><FaLongArrowAltRight /></span></Link></li>
                 </ul>
                 <div className="header-actions">
                     <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
