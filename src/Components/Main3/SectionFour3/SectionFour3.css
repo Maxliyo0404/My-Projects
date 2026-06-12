@@ -24,6 +24,37 @@
   line-height: 24px;
   margin-bottom: 64px;
 }
-.four3-list{
-    
+.four3-item{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.four3-rasm{
+    max-width: 100%;
+}
+.four3-imge{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Matnlarni pastga tushirish uchun */
+   
+}
+
+
+.four3-imge::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../SectionFour3/image/four3_5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px) brightness(0.6); /* blur = xiralik, brightness = qorong'ulik */
+    z-index: -1;
 }
