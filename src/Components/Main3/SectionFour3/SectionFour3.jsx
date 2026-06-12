@@ -11,7 +11,11 @@ function SectionFour3() {
                 <h6 className="four3-label">{t("sectionFour3.four3-label")}</h6>
                 <h2 className="four3-title">{t("sectionFour3.four3-title")}</h2>
                 <p className="four3-text">{t("sectionFour3.four3-text")}</p>
-                <ul className="four3-list"></ul>
+                <ul className="four3-list">
+                    <li className="four3-item">
+                        <img src="" alt="" />
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
