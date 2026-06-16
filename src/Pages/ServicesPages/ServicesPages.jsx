@@ -26,4 +26,4 @@ function ServicesPages() {
   )
 }
 
-export default ServicesPages
+export default ServicesPages;
